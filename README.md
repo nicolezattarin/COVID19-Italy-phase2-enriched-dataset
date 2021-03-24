@@ -1,6 +1,11 @@
 # covid19-phase2-data
 
 ## Indicatori dell'ISS per stabilire le fasce di rischio delle varie regioni:
+
+I file csv hanno come colonne:
+Regione	- 1.1%	- 1.2%	- 1.3%	- 1.4%	- 3.1 -	3.2	- 3.5	- 3.6 -	3.8% -	3.9% -	2.1% -	2.2 -	2.4 (per 10000) -	2.5(per 10000) -	2.6% -	Report
+dove % indica che il valore dell'indice è percentuale
+
 ***Indicatori di processo sulla capacità di monitoraggio:***
 - 1.1 Numero di casi sintomatici notificati per mese in cui è indicata la data inizio sintomi / totale di casi sintomatici notificati al sistema di sorveglianza nello stesso periodo
 - 1.2 Numero di casi notificati per mese con storia di ricovero in ospedale (in reparti diversi dalla TI) in cui è indicata la data di ricovero/totale di casi con storia di ricovero in ospedale (in reparti diversi dalla TI) notificati al sistema di sorveglianza nello stesso periodo
@@ -25,4 +30,4 @@
 quarantena e isolamento
 - 2.6 Numero di casi confermati di infezione nella regione per cui sia stata effettuata una regolare indagine epidemiologica con ricerca dei contatti stretti/totale di nuovi casi di infezione confermati
 
-
+fonte [ISS](http://www.salute.gov.it/portale/nuovocoronavirus/archivioMonitoraggiNuovoCoronavirus.jsp)
