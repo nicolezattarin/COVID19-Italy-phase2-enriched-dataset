@@ -1,4 +1,5 @@
-# covid19-phase2-data
+# covid19-phase2-data-italy
+
 
 ## Indicatori dell'ISS per stabilire le fasce di rischio delle varie regioni:
 
