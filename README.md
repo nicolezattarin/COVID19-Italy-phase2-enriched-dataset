@@ -2,9 +2,9 @@
 
 
 ## Indicatori dell'ISS per stabilire le fasce di rischio delle varie regioni:
+Sono riportati i dati di alcuni report settimanali relativi alla seconda fase dell'epidemia, quindi da novembre 2020, quando è iniziato il sistema della suddivisione in zone "colorate" di rischio.
 
 I file csv hanno come colonne:
-
 
 Regione	- 1.1%	- 1.2%	- 1.3%	- 1.4%	- 3.1 -	3.2	- 3.5	- 3.6 -	3.8% -	3.9% -	2.1% -	2.2 -	2.4 (per 10000) -	2.5(per 10000) -	2.6% -	Report
 
