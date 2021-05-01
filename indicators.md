@@ -7,7 +7,7 @@ These are the main reason behind the change of regions' colours, since they desc
 
 Every week the ISS provides a report with all the indicators, calculated from data that are collected *regionally* and then analysed by the ISS.   
 
-In this repository we provide the datasets with 16 of the 21 indicators from the weekly reports, in particular from week 27 (09/09/2020-15/09/2020) to week 45 (15/03/2021-21/03/2021).
+In this repository we provide the datasets with 16 of the 21 indicators from the weekly reports, in particular from week 27 (09/09/2020-15/09/2020) to week 45 (15/03/2021-21/03/2021). 
 
 File's header, with region and indicators' code:
 
