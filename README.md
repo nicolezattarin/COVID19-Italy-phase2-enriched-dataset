@@ -19,13 +19,13 @@ The following are the data related to the restrictions imposed by the italian go
 
 The CSV file contains the following columns: 'Region'-'Restriction'-'Start'-'End'
 
-*)'Region': The italian particular italian region under the restriction regime imposed in a given time period
+- 'Region': The italian particular italian region under the restriction regime imposed in a given time period
 
-*)'Restriction': The restriction type according to the italian COVID_19 containment system. In ascending order of strength of restraint, the possibilities are: 'White'-'Yellow'-'Orange'-'Red'.
+- 'Restriction': The restriction type according to the italian COVID_19 containment system. In ascending order of strength of restraint, the possibilities are: 'White'-'Yellow'-'Orange'-'Red'.
 
-*)Start: the date of start of a given restriction (YYYY-MM-DD)
+- Start: the date of start of a given restriction (YYYY-MM-DD)
 
-*)End:the end date of a given restriction (YYYY-MM-DD)
+- End:the end date of a given restriction (YYYY-MM-DD)
 
 The file is organized so that Regions are sorted in a descending alphabetically order and for each region rows are chronologically ordered following the time series of the applied restrictions.
 Source:'https://github.com/aborruso/covid-19-zone/blob/main/covid-19-zone.csv'
