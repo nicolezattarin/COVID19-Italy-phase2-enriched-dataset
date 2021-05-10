@@ -1,3 +1,4 @@
+$1 Date; $2 Region; $3 Cases; $4 New cases; $5 New recovered; $6 New deaths; $7 New tests; $8 Percentage of positive tests; $9 Restricion color
 2020-11-06;Abruzzo;8895;432;105;12;3274;13.1949;Yellow
 2020-11-06;Basilicata;2415;105;21;4;1158;9.06736;Yellow
 2020-11-06;Calabria;4795;392;74;4;3550;11.0423;Red

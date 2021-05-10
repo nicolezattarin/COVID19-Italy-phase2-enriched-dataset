@@ -3,6 +3,8 @@
 #include <fstream>
 using namespace std;
 
+// Il programma va eseguito su ciascuna regione dopo averla estratta.
+
 // Ci sono drop nel numero totale di tamponi in: Marche il 2021-01-24 di 12'043;
 // Piemonte il 2020-12-16 di 215'581; Valle d'Aosta il 2020-12-02 di 6'386.
 
@@ -29,8 +31,8 @@ using namespace std;
 
 int main(int argc, char**argv){
 	if(argc!=2){
-		cout<<"Passare <regione>"<<endl;		// Ricorda che nei file delle regioni la data è +1
-		return -1;													// quindi la prenderemo dal file dei colori.
+		cout<<"Passare <regione>"<<endl;// Ricorda che nei file delle regioni la data è +1
+		return -1;			// quindi la prenderemo dal file dei colori.
 	}
 
 	fstream file_regione, file_color, file_out;
@@ -43,9 +45,9 @@ int main(int argc, char**argv){
 	float Tpercentage;
 
 	string Regione[21]={"Abruzzo","Basilicata","Calabria","Campania","Emilia-Romagna",
-											"Friuli_Venezia_Giulia","Lazio","Liguria","Lombardia","Marche","Molise",
-											"P.A.Bolzano","P.A.Trento","Piemonte","Puglia","Sardegna","Sicilia","Toscana",
-											"Umbria","Valle_Aosta","Veneto"};
+			    "Friuli_Venezia_Giulia","Lazio","Liguria","Lombardia","Marche","Molise",
+			    "P.A.Bolzano","P.A.Trento","Piemonte","Puglia","Sardegna","Sicilia",
+			    "Toscana","Umbria","Valle_Aosta","Veneto"};
 	appostring=argv[1];
 	for(int i=0; i<21; i++){
 		if(Regione[i]==appostring){
@@ -58,19 +60,19 @@ int main(int argc, char**argv){
 		cout<<"Errore apertura file regione."<<endl;
 		return -2;
 	}
-	for(int i=0; i<428; i++){	// Si prende il numero di giorni da inizio pandemia al punto prestabilito.
+	for(int i=0; i<428; i++){// Si prende il numero di giorni dall' inizio al punto prestabilito.
 		file_regione>>appo>>appo>>appo>>appo>>appo>>current>>
-								appo>>newc>>Rappo>>Dappo>>
-								appo>>appo>>appo>>Tappo>>
-								appo>>appo>>appo>>appo>>appo>>appo;
-		if(i==256){							// Serviranno a calcolare i dati nel primo giorno con colori.
+			appo>>newc>>Rappo>>Dappo>>
+			appo>>appo>>appo>>Tappo>>
+			appo>>appo>>appo>>appo>>appo>>appo;
+		if(i==256){	// Serviranno a calcolare i dati nel primo giorno con colori.
 			preRappo=Rappo;
 			preDappo=Dappo;
 			preTappo=Tappo;
 		}
-		if(i>256){												// i parte da 0 e non da 1, e nei file delle regioni la data è +1
-			Current_cases[i-257]=current;		// quindi il primo record con colori è il 258esimo,
-			New_cases[i-257]=newc;					// che equivale a i=257.
+		if(i>256){	// i parte da 0 e non da 1, e nei file delle regioni la data è +1:
+			Current_cases[i-257]=current;	// il primo record con colori è il 258esimo,
+			New_cases[i-257]=newc;		// che equivale a i=257.
 			R_Cumulative[i-257]=Rappo;
 			D_Cumulative[i-257]=Dappo;
 			T_Cumulative[i-257]=Tappo;
@@ -115,8 +117,8 @@ int main(int argc, char**argv){
 		file_out<<Data[i]<<" "<<Current_cases[i]<<" "<<New_cases[i]<<" ";
 		// $1 Data, $2 Casi totali, $3 Nuovi casi, 
 		file_out<<Rdaily[i]<<" "<<Ddaily[i]<<" "<<Tdaily[i]<<" "<<Tpercentage<<" ";
-		// $4 Nuovi guariti, $5 Nuovi morti, $6 Nuovi tamponi, $7 Percentuale di tamponi positivi,
-		for(int j=0; j<21; j++){														// $8 Colore regione
+		// $4 Nuovi guariti, $5 Nuovi morti, $6 Nuovi tamponi, $7 % di tamponi positivi,
+		for(int j=0; j<21; j++){			    // $8 Colore regione
 			file_color>>appostring;
 			if(j==quale_regione){
 				if(appostring=="White") file_out<<"White"<<endl;
