@@ -11,9 +11,9 @@ int main(){
 	float Tpercentage;
 	fstream file_regione[21], file_out;
 	string Regione[21]={"Abruzzo","Basilicata","Calabria","Campania","Emilia-Romagna",
-											"Friuli_Venezia_Giulia","Lazio","Liguria","Lombardia","Marche","Molise",
-											"P.A.Bolzano","P.A.Trento","Piemonte","Puglia","Sardegna","Sicilia","Toscana",
-											"Umbria","Valle_Aosta","Veneto"};
+			    "Friuli_Venezia_Giulia","Lazio","Liguria","Lombardia","Marche","Molise",
+			    "P.A.Bolzano","P.A.Trento","Piemonte","Puglia","Sardegna","Sicilia",
+			    "Toscana","Umbria","Valle_Aosta","Veneto"};
 
 	for(int i=0; i<21; i++){
 		file_regione[i].open(Regione[i]+"_aggiustata.csv",ios::in);
@@ -23,6 +23,8 @@ int main(){
 		}
 	}
 	file_out.open("covid19-ita-regions-daily.csv",ios::out);
+	file_out<<"$1 Date, $2 Region, $3 Cases, $4 New cases, $5 New recovered, $6 New deaths, ";
+	file_out<<"$7 New tests, $8 Percentage of positive tests, $9 Restricion color"<<endl;
 
 	for(int i=0; i<171; i++){
 		for(int j=0; j<21; j++){
