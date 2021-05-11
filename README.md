@@ -41,7 +41,7 @@ The CSV file contains the following columns: 'Region'-'Restriction'-'Start'-'End
 The file is organized so that Regions are sorted in a descending alphabetically order and for each region rows are chronologically ordered following the time series of the applied restrictions.
 Source: [covid-19-zone on GitHub](https://github.com/aborruso/covid-19-zone/blob/main/covid-19-zone.csv).
 
-###Indicators for risk assessment
+### Indicators for risk assessment
 
 In Report_ISS we provide a dataset for every weekly report taken by the ISS, that is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally.
 
@@ -52,7 +52,7 @@ Here you can find a full description of the datasets:
 ### Daily Region data
 
 
-###Deaths
+### Deaths
 
 
 The file deaths.csv contains a comparison between the mean deaths in 2015-2019 and 2020 deaths. The deaths are aggregated per month per province, indeed the header is organized as:
