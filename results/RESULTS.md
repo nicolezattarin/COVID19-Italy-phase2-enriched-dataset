@@ -13,8 +13,7 @@ A first result can be gained observing the red and yellow zones before Christmas
 
 **Conclusions**
 
-<img src="images/logreturn_IC.png" alt="drawing" style="width:400px;"/>
-<img src="images/logreturn_new_cases.png" alt="drawing" style="width:400px;"/>
+<img src="images/logreturn_IC.png" alt="drawing" style="width:200px;"/><img src="images/logreturn_new_cases.png" alt="drawing" style="width:200px;"/>
 
 
 ## Deaths in the second semester of 2020 vs previous years
@@ -52,4 +51,4 @@ sovrastimata nellâ€™ultimo trimestre del 2020. Considerando che dei morti con lâ
 La mortalit`a Covid sembra essere
 decessi con Covid sia da analizzare ricordando che molti di quei decessi sarebbero potuti avvenire anche in condizioni standard.
 
-<img src="images/deaths_milan.png" alt="drawing" style="width:400px;"/>
+<img src="images/deaths_milan.png" alt="drawing" style="width:200px;"/>
