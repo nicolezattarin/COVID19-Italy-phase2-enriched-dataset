@@ -6,6 +6,7 @@
 ## Repository organisation
 - reports_ISS/ datasets with risk indicators from ISS weekly reports
 - deaths: deaths per province per month
+- daily_ region_ data / a full dataset with different epidemiological data
 - results/ report of our main results and corresponding plots
 
 ## Sources
@@ -14,6 +15,7 @@
 - ISTAT
 
 ###Introduction
+
 From November on, in Italy, the spread of Covid pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ## Datasets
@@ -39,7 +41,20 @@ The CSV file contains the following columns: 'Region'-'Restriction'-'Start'-'End
 The file is organized so that Regions are sorted in a descending alphabetically order and for each region rows are chronologically ordered following the time series of the applied restrictions.
 Source: [covid-19-zone on GitHub](https://github.com/aborruso/covid-19-zone/blob/main/covid-19-zone.csv).
 
-###Indicators
+###Indicators for risk assessment
+In Report_ISS we provide a dataset for every weekly report taken by the ISS, that is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally.
+
+Here you can find a full description of the datasets:
+[INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md
+)
+
+### Daily Region data
 
 
+###Deaths
+The file deaths.csv contains a comparison between the mean deaths in 2015-2019 and 2020 deaths. The deaths are aggregated per month per province, indeed the header is organized as:
 
+- CodProv (Province ISTAT code) 
+- deaths per month in the period 2015-2019
+- deaths per month in 2020
+- deaths per month identified as covid cases (for the second semester of 2020)
