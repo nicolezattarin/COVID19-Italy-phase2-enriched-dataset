@@ -13,7 +13,7 @@ A first result can be gained observing the red and yellow zones before Christmas
 
 **Conclusions**
 
-<img src="images/logreturn_IC.png" alt="drawing" style="width:200px;"/><img src="images/logreturn_new_cases.png" alt="drawing" style="width:200px;"/>
+<img src="images/logreturn_IC.png" alt="drawing" style="width:100px;"/><img src="images/logreturn_new_cases.png" alt="drawing" style="width:100px;"/>
 
 
 ## Deaths in the second semester of 2020 vs previous years
