@@ -6,6 +6,7 @@ rm fixed_*.csv
 ## one could do a one liner
 for i in `cat region_list.dat`; do ./fix_region $i ; done 
 ## where region_list.dat is a one-column file with the region list  
+## this can also be done for other scripts in this folder 
 ## END MCL
 
 ./fix_region Abruzzo
