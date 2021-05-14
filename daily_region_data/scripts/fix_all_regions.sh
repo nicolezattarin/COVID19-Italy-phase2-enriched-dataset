@@ -1,6 +1,13 @@
 #!/bin/sh
 # This bash script simply reiterates the single fix_region script for all regions.
 rm fixed_*.csv
+
+## MCL 
+## one could do a one liner
+for i in `cat region_list.dat`; do ./fix_region $i ; done 
+## where region_list.dat is a one-column file with the region list  
+## END MCL
+
 ./fix_region Abruzzo
 ./fix_region Basilicata
 ./fix_region Calabria
