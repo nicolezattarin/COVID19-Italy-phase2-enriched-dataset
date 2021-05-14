@@ -1,0 +1,18 @@
+This folder needs a small readme file stating the content of the folder
+"this folder contains the following scripts and programs, used to process the dayly region data 
+
+
+clean_colors.sh  STATE WHAT IT DOES AND WHAT INPUT / OUTPUT IT TAKES
+colors_daily.csv SAME
+fix_all_regions.sh. ETC
+fix_region.cpp
+get_all_regions.sh
+get_region.sh
+link_regions.cpp 
+
+further information can be found in the heades of each script" 
+
+the files
+cleaned-dpc-covid19-ita-regioni.csv 
+colors_daily.csv
+are not a script so they probably should not be in the "scripts" folder - or if necessary state in the readme the purpose of these files
