@@ -3,6 +3,12 @@
 #include <fstream>
 using namespace std;
 
+// MCL in all C++ programs include in the comments
+// your name and date
+// instructions to compile 
+// dependencies (if any) 
+// usage
+
 // This program (once compiled) needs a region name as the argument and that region extracted file
 // in the directory, so one needs to execute the get_region script first.
 // This program also requires the extracted region file to not have any empty field, so that's why
