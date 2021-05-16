@@ -8,7 +8,7 @@ In order to quantify the effectiveness of a particular restriction lut us define
 
 **Conclusions**
 
-![istogrammi-1](https://user-images.githubusercontent.com/72971538/118391005-668bf380-b632-11eb-80b4-52709f2368cb.png)
+<img src="images/histograms.png"  width="500"/>  
 
 In the previous figure the effectiveness of a given restriction evaluated with the *SNP normalized* observable is straightforwardly compared to the one computed for the Orange zone having on the x-axis a particular value of the observable and on the y-axis (splitted in two) the probability of count of days in which a specific SNP value has been observed.
 
@@ -21,7 +21,9 @@ Let us consider all the impositions of the Orange restriction with the exception
 
 **Conclusions**
 
-![restrizioni (1)](https://user-images.githubusercontent.com/72971538/118390961-2e84b080-b632-11eb-9a9c-b7e337a508ce.png)
+
+<img src="images/restrictions.png"  width="500"/>  
+
 
 It has been observed that 63.8% of the times that the Orange zone led to the yellow one. In addition to this, from the image it seems that the more an Orange zone persists, the more likely it will become yellow. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurency of the sequencies containing the orange zone has been for the 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (remaining 2.3% of R-O-R and 18.6% of R-O-Y) highlighting the fact that the previous observation it's not simply the consequence of the descent of the epidemiological curve. 
 
@@ -30,6 +32,7 @@ It has been observed that 63.8% of the times that the Orange zone led to the yel
 
 Let us consider the 7 days moving average of the IC occupancy and of the new cases registered daily. 
 It's documented that there's a natural time to observe the results of a restrictive policy. Thus we introduce a 11 days shifting, since after this time we expect that the 97.5% of the exposed population manifested symptoms ([CDC, Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease](https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html)). 
+
 
 We consider the log return of such quantities (INSERT EQUATION), such observable
 measures the daily variation of a quantity, it is independent by the size of the population so that we can compare dataset of different Italian regions.
