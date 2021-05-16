@@ -14,7 +14,7 @@
 - Protezione Civile
 - ISTAT
 
-###Introduction
+### Introduction
 
 From November on, in Italy, the spread of Covid pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
