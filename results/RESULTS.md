@@ -52,7 +52,6 @@ We assume that the mean mortality in this province is the one reported in the ye
 
 **Conclusions**
 
-
  In figura (4) osserviamo che nell’ultimo trimestre
 del 2020 i decessi medi, sommati a quelli avvenuti con infezione
 in corso, supera significativamente il numero di morti per abi-
