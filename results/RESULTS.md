@@ -21,7 +21,7 @@ Let us consider all the impositions of the Orange restriction with the exception
 
 **Conclusions**
 
-![durata_bar_ax](https://user-images.githubusercontent.com/72971538/118390882-c8982900-b631-11eb-867d-4ad0ee7af099.png)
+![restrizioni](https://user-images.githubusercontent.com/72971538/118390916-e9f91500-b631-11eb-8322-a683b810993b.png)
 
 It has been observed that 63.8% of the times, the Orange zone led to the yellow one. In addition to this, from the image it seems that the more an Orange zone persists, the more likely it will become yellow. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurency of the sequencies containing the orange zone has been for the 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (remaining 2.3% of R-O-R and 18.6% of R-O-Y) highlighting the fact that the previous observation it's not simply the consequence of the descent of the epidemiological curve. 
 
