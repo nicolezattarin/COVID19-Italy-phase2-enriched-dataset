@@ -51,30 +51,15 @@ We assume that the mean mortality in this province is the one reported in the ye
 
 
 **Conclusions**
+From the plot below we can conclude that in the 2020's last trimester the mean deaths of 2015-19 plus the deaths due to covid disease exceed significantly the number of deaths per capita of 2020. On the other hand, during the previous months reported values almost coincide, because during summer months the spreading of pandemia was substantially negligible. 
 
+In order to better understand the impact of Covid disease on mortality we refer to what is reported by ISS in [Impact of Covid pandemia on mortality: cause of death in people who died affected by Sars-Cov-2](https://www.istat.it/it/files//2020/07/Report_ISS_Istat_Cause-di-morte-Covid.pdf).
 
- In figura (4) osserviamo che nell’ultimo trimestre
-del 2020 i decessi medi, sommati a quelli avvenuti con infezione
-in corso, supera significativamente il numero di morti per abi-
-tante riportato nel 2020, mentre nei tre mesi precedenti tutte
-le stime sostanzialmente coincidono, perch`e l’impatto del virus
-era ancora inconsistente. Come riporta l’ISS (8) il Covid-19 `e
-pero` causa diretta della morte nell’89% dei decessi di persone
-positive, introducendo questo fattore di riscalamento otteni-
-amo pero` ancora una sovrastima. Osserviamo che la popo-
-lazione deceduta a causa della malattia, in generale, puo` avere
-intersezione non banale con l’insieme di coloro che sarebbero
-deceduti indipendentemente. Quest’ipotesi `e supportata dal
-fatto che il 71.8%(8) dei deceduti presenta almeno una con-
-causa. Apportando questa ulteriore correzione ci avviciniamo
-molto ai decessi effettivi del 2020, restano differenze che pos-
-sono allora essere attribuibili ad errori sistematici. L’ISTAT
-specifica infatti che nel referto di decesso non sono riportate
-tutte le patologie del deceduto, per cui `e possibile che alcune informazioni non vengano trasmesse e che quindi la percentuale di morti con concause sia sottostimata.
-Concludiamo che una frazione non trascurabile dei deceduti con infezione in corso avrebbe avuto alte probabilit`a di decesso indipendentemente dal Covid. Questo ci porta a sostenere che il dato relativo ai
-FIG. 4
-sovrastimata nell’ultimo trimestre del 2020. Considerando che dei morti con l’infezione non tutti lo sono a causa dell’infezione e le possi- bili concause di decesso otteniamo valori piu` prossimi a quelli attesi.
-La mortalit`a Covid sembra essere
-decessi con Covid sia da analizzare ricordando che molti di quei decessi sarebbero potuti avvenire anche in condizioni standard.
+According to this report, Covid-19 directly causes death just in the 89% of people died with this disease. In addiction the set of people who died with Covid and because of it can have a non-trivial intersection with the group of people who would have died anyway. Accordingly, ISS reports that the 71.8% died with at least another possible cause of death, beyond Covid.
+
+Introducing this two scalings we see that the sum of usual mortality and death, that we suppose are really caused by Covid, still exceed the observed mortality in 2020, but the values tend to be closer. 
+
+We conclude that a non-trivial fraction of people who died with Covid disease would probably have hight probability to die regardless pandemia. 
+
 
 <img src="images/deaths_milan.png"  width="500"/>  
