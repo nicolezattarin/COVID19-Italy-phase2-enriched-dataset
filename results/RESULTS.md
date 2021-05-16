@@ -2,7 +2,7 @@
 ## Orange zone effectiveness
 **Introduction**
 
-Let us consider all the dates in which one between the 'Red'-'Orange'-'Yellow' restriction has been imposed in every italian region and a suitable time lag of 14 days with whom evaluate the results of the restriction (the 15 days time shift could be seen as the gap between the exposure to the virus and the outbreak of the symptons in an individual https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
+Let us consider all the dates in which one between the 'Red'-'Orange'-'Yellow' restriction has been imposed in every italian region and a suitable time lag of 14 days with whom evaluate the results of the restriction (the 14 days time shift could be seen as the gap between the exposure to the virus and the outbreak of the symptons in an individual https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
 
 In order to quantify the effectiveness of a particular restriction lut us define the observable *SNP normalized* as the deviation of new positives (the difference between the number of today's new positives and yesterday's) normalized over today's new positives.
 
