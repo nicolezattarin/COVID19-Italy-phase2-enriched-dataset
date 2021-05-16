@@ -39,8 +39,7 @@ A first result can be gained observing the red and yellow zones before Christmas
 
 **Conclusions**
 
-<img src="images/logreturn_IC.png"  width="500"/>  
-<img src="images/logreturn_new_cases.png"  width="500"/>  
+<img src="images/logreturn_IC.png"  width="500"/>  <img src="images/logreturn_new_cases.png"  width="500"/>  
 
 
 ## Deaths in the second semester of 2020 vs previous years
@@ -52,7 +51,6 @@ We assume that the mean mortality in this province is the one reported in the ye
 
 
 **Conclusions**
-
 
  In figura (4) osserviamo che nell’ultimo trimestre
 del 2020 i decessi medi, sommati a quelli avvenuti con infezione
