@@ -8,11 +8,11 @@ In order to quantify the effectiveness of a particular restriction lut us define
 
 **Conclusions**
 
-[istogrammi.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/files/6488891/istogrammi.pdf)
+![istogrammi-1](https://user-images.githubusercontent.com/72971538/118391005-668bf380-b632-11eb-80b4-52709f2368cb.png)
 
 In the previous figure the effectiveness of a given restriction evaluated with the *SNP normalized* observable is straightforwardly compared to the one computed for the Orange zone having on the x-axis a particular value of the observable and on the y-axis (splitted in two) the probability of count of days in which a specific SNP value has been observed.
 
-Given the large number of data, a T-test would produce extremely low p-values for both the histograms (from left to right, $$p_1 \simeq 4\cdot 10^{-151}, p_2 \simeq 8\cdot 10^{-160}$$), which allow to conclude with a low significance level that the differences between the averages of the compared restrictions are statistically significant, i.e. different restrictions have different effectiveness.
+Given the large number of data, a T-test would produce extremely low p-values for both the histograms (from left to right: p1 ~ 4.e(-151), p2 ~ 8.e(-160), which allow to conclude with a low significance level that the differences between the averages of the compared restrictions are statistically significant, i.e. different restrictions have different effectiveness.
 
 ## Restriction transitions 
 **Introduction**
@@ -23,7 +23,7 @@ Let us consider all the impositions of the Orange restriction with the exception
 
 ![restrizioni (1)](https://user-images.githubusercontent.com/72971538/118390961-2e84b080-b632-11eb-9a9c-b7e337a508ce.png)
 
-It has been observed that 63.8% of the times, the Orange zone led to the yellow one. In addition to this, from the image it seems that the more an Orange zone persists, the more likely it will become yellow. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurency of the sequencies containing the orange zone has been for the 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (remaining 2.3% of R-O-R and 18.6% of R-O-Y) highlighting the fact that the previous observation it's not simply the consequence of the descent of the epidemiological curve. 
+It has been observed that 63.8% of the times that the Orange zone led to the yellow one. In addition to this, from the image it seems that the more an Orange zone persists, the more likely it will become yellow. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurency of the sequencies containing the orange zone has been for the 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (remaining 2.3% of R-O-R and 18.6% of R-O-Y) highlighting the fact that the previous observation it's not simply the consequence of the descent of the epidemiological curve. 
 
 ## Yellow and red zones before Christmas
 **Introduction**
