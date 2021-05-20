@@ -42,9 +42,13 @@ Here we provide a description for the indicators, based on their code:
 - 2.1 Percentage of positive Covid tests per month, excluding, as much as possible, retesting and screening activity;
 
 - 2.2 Time between first symptoms and diagnosis;
+
 - 2.3 Time between first symptoms and start of isolation;
+
 - 2.4 Number of professional figures assigned to contact-tracing;
+
 - 2.5 Number of professional figures monitoring quarantined and isolated cases (contact tracing and testing);
+
 - 2.6 Fraction of total cases with a detailed investigation of latest.
 
 

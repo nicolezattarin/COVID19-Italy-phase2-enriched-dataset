@@ -14,6 +14,7 @@ Abruzzo,Yellow,2021-02-01,2021-02-13
 Abruzzo,Orange,2021-02-14,2021-04-02
 Abruzzo,Red,2021-04-03,2021-04-05
 Abruzzo,Orange,2021-04-06,2021-04-25
+Abruzzo,Yellow,2021-04-26,2021-05-16
 Basilicata,Yellow,2020-11-06,2020-11-10
 Basilicata,Orange,2020-11-11,2020-12-12
 Basilicata,Yellow,2020-12-13,2020-12-23
@@ -26,7 +27,8 @@ Basilicata,Yellow,2021-01-07,2021-02-28
 Basilicata,Red,2021-03-01,2021-03-14
 Basilicata,Orange,2021-03-15,2021-04-02
 Basilicata,Red,2021-04-03,2021-04-05
-Basilicata,Orange,2021-04-06,2021-04-25
+Basilicata,Orange,2021-04-06,2021-05-09
+Basilicata,Yellow,2021-05-10,2021-05-16
 Calabria,Red,2020-11-06,2020-11-28
 Calabria,Orange,2020-11-29,2020-12-12
 Calabria,Yellow,2020-12-13,2020-12-23
@@ -40,7 +42,8 @@ Calabria,Orange,2021-01-11,2021-01-31
 Calabria,Yellow,2021-02-01,2021-03-14
 Calabria,Orange,2021-03-15,2021-03-28
 Calabria,Red,2021-03-29,2021-04-11
-Calabria,Orange,2021-04-12,2021-04-25
+Calabria,Orange,2021-04-12,2021-05-09
+Calabria,Yellow,2021-05-10,2021-05-16
 Campania,Yellow,2020-11-06,2020-11-14
 Campania,Red,2020-11-15,2020-12-05
 Campania,Orange,2020-12-06,2020-12-19
@@ -54,6 +57,7 @@ Campania,Yellow,2021-01-07,2021-02-20
 Campania,Orange,2021-02-21,2021-03-07
 Campania,Red,2021-03-08,2021-04-18
 Campania,Orange,2021-04-19,2021-04-25
+Campania,Yellow,2021-04-26,2021-05-16
 Emilia-Romagna,Yellow,2020-11-06,2020-11-14
 Emilia-Romagna,Orange,2020-11-15,2020-12-05
 Emilia-Romagna,Yellow,2020-12-06,2020-12-23
@@ -68,6 +72,7 @@ Emilia-Romagna,Yellow,2021-02-01,2021-02-20
 Emilia-Romagna,Orange,2021-02-21,2021-03-14
 Emilia-Romagna,Red,2021-03-15,2021-04-11
 Emilia-Romagna,Orange,2021-04-12,2021-04-25
+Emilia-Romagna,Yellow,2021-04-26,2021-05-16
 Friuli Venezia Giulia,Yellow,2020-11-06,2020-11-14
 Friuli Venezia Giulia,Orange,2020-11-15,2020-12-05
 Friuli Venezia Giulia,Yellow,2020-12-06,2020-12-23
@@ -82,6 +87,7 @@ Friuli Venezia Giulia,Yellow,2021-02-01,2021-03-07
 Friuli Venezia Giulia,Orange,2021-03-08,2021-03-14
 Friuli Venezia Giulia,Red,2021-03-15,2021-04-11
 Friuli Venezia Giulia,Orange,2021-04-12,2021-04-25
+Friuli Venezia Giulia,Yellow,2021-04-26,2021-05-16
 Lazio,Yellow,2020-11-06,2020-12-23
 Lazio,Red,2020-12-24,2020-12-27
 Lazio,Orange,2020-12-28,2020-12-30
@@ -95,6 +101,7 @@ Lazio,Red,2021-03-15,2021-03-29
 Lazio,Orange,2021-03-30,2021-04-02
 Lazio,Red,2021-04-03,2021-04-05
 Lazio,Orange,2021-04-06,2021-04-25
+Lazio,Yellow,2021-04-26,2021-05-16
 Liguria,Yellow,2020-11-06,2020-11-10
 Liguria,Orange,2020-11-11,2020-11-28
 Liguria,Yellow,2020-11-29,2020-12-23
@@ -111,6 +118,7 @@ Liguria,Yellow,2021-03-01,2021-03-14
 Liguria,Orange,2021-03-15,2021-04-02
 Liguria,Red,2021-04-03,2021-04-05
 Liguria,Orange,2021-04-06,2021-04-25
+Liguria,Yellow,2021-04-26,2021-05-16
 Lombardia,Red,2020-11-06,2020-11-28
 Lombardia,Orange,2020-11-29,2020-12-12
 Lombardia,Yellow,2020-12-13,2020-12-23
@@ -127,6 +135,7 @@ Lombardia,Yellow,2021-02-01,2021-02-28
 Lombardia,Orange,2021-03-01,2021-03-14
 Lombardia,Red,2021-03-15,2021-04-11
 Lombardia,Orange,2021-04-12,2021-04-25
+Lombardia,Yellow,2021-04-26,2021-05-16
 Marche,Yellow,2020-11-06,2020-11-14
 Marche,Orange,2020-11-15,2020-12-05
 Marche,Yellow,2020-12-06,2020-12-23
@@ -141,6 +150,7 @@ Marche,Yellow,2021-02-01,2021-02-28
 Marche,Orange,2021-03-01,2021-03-14
 Marche,Red,2021-03-15,2021-04-05
 Marche,Orange,2021-04-06,2021-04-25
+Marche,Yellow,2021-04-26,2021-05-16
 Molise,Yellow,2020-11-06,2020-12-23
 Molise,Red,2020-12-24,2020-12-27
 Molise,Orange,2020-12-28,2020-12-30
@@ -153,6 +163,7 @@ Molise,Red,2021-03-01,2021-03-21
 Molise,Orange,2021-03-22,2021-04-02
 Molise,Red,2021-04-03,2021-04-05
 Molise,Orange,2021-04-06,2021-04-25
+Molise,Yellow,2021-04-26,2021-05-16
 P.A.Bolzano,Yellow,2020-11-06,2020-11-10
 P.A.Bolzano,Red,2020-11-11,2020-12-05
 P.A.Bolzano,Orange,2020-12-06,2020-12-19
@@ -167,6 +178,7 @@ P.A.Bolzano,Red,2021-01-17,2021-01-31
 P.A.Bolzano,Orange,2021-02-01,2021-04-02
 P.A.Bolzano,Red,2021-04-03,2021-04-05
 P.A.Bolzano,Orange,2021-04-06,2021-04-25
+P.A.Bolzano,Yellow,2021-04-26,2021-05-16
 P.A.Trento,Yellow,2020-11-06,2020-12-23
 P.A.Trento,Red,2020-12-24,2020-12-27
 P.A.Trento,Orange,2020-12-28,2020-12-30
@@ -177,6 +189,7 @@ P.A.Trento,Yellow,2021-01-07,2021-02-13
 P.A.Trento,Orange,2021-02-14,2021-03-14
 P.A.Trento,Red,2021-03-15,2021-04-05
 P.A.Trento,Orange,2021-04-06,2021-04-25
+P.A.Trento,Yellow,2021-04-26,2021-05-16
 Piemonte,Red,2020-11-06,2020-11-28
 Piemonte,Orange,2020-11-29,2020-12-12
 Piemonte,Yellow,2020-12-13,2020-12-23
@@ -191,6 +204,7 @@ Piemonte,Yellow,2021-02-01,2021-02-28
 Piemonte,Orange,2021-03-01,2021-03-14
 Piemonte,Red,2021-03-15,2021-04-11
 Piemonte,Orange,2021-04-12,2021-04-25
+Piemonte,Yellow,2021-04-26,2021-05-16
 Puglia,Orange,2020-11-06,2020-12-05
 Puglia,Yellow,2020-12-06,2020-12-23
 Puglia,Red,2020-12-24,2020-12-27
@@ -202,6 +216,8 @@ Puglia,Yellow,2021-01-07,2021-01-16
 Puglia,Orange,2021-01-17,2021-02-10
 Puglia,Yellow,2021-02-11,2021-03-14
 Puglia,Red,2021-03-15,2021-04-25
+Puglia,Orange,2021-04-26,2021-05-09
+Puglia,Yellow,2021-05-10,2021-05-16
 Sardegna,Yellow,2020-11-06,2020-12-23
 Sardegna,Red,2020-12-24,2020-12-27
 Sardegna,Orange,2020-12-28,2020-12-30
@@ -215,7 +231,8 @@ Sardegna,White,2021-03-01,2021-03-21
 Sardegna,Orange,2021-03-22,2021-04-02
 Sardegna,Red,2021-04-03,2021-04-05
 Sardegna,Orange,2021-04-06,2021-04-11
-Sardegna,Red,2021-04-12,2021-04-25
+Sardegna,Red,2021-04-12,2021-05-02
+Sardegna,Orange,2021-05-03,2021-05-16
 Sicilia,Orange,2020-11-06,2020-11-28
 Sicilia,Yellow,2020-11-29,2020-12-23
 Sicilia,Red,2020-12-24,2020-12-27
@@ -230,7 +247,7 @@ Sicilia,Orange,2021-02-01,2021-02-14
 Sicilia,Yellow,2021-02-15,2021-03-14
 Sicilia,Orange,2021-03-15,2021-04-02
 Sicilia,Red,2021-04-03,2021-04-05
-Sicilia,Orange,2021-04-06,2021-04-25
+Sicilia,Orange,2021-04-06,2021-05-16
 Toscana,Yellow,2020-11-06,2020-11-10
 Toscana,Orange,2020-11-11,2020-11-14
 Toscana,Red,2020-11-15,2020-12-05
@@ -245,6 +262,7 @@ Toscana,Yellow,2021-01-07,2021-02-13
 Toscana,Orange,2021-02-14,2021-03-28
 Toscana,Red,2021-03-29,2021-04-11
 Toscana,Orange,2021-04-12,2021-04-25
+Toscana,Yellow,2021-04-26,2021-05-16
 Umbria,Yellow,2020-11-06,2020-11-10
 Umbria,Orange,2020-11-11,2020-12-05
 Umbria,Yellow,2020-12-06,2020-12-23
@@ -257,19 +275,23 @@ Umbria,Yellow,2021-01-07,2021-01-16
 Umbria,Orange,2021-01-17,2021-04-02
 Umbria,Red,2021-04-03,2021-04-05
 Umbria,Orange,2021-04-06,2021-04-25
-Valle_Aosta,Red,2020-11-06,2020-12-05
-Valle_Aosta,Orange,2020-12-06,2020-12-19
-Valle_Aosta,Yellow,2020-12-20,2020-12-23
-Valle_Aosta,Red,2020-12-24,2020-12-27
-Valle_Aosta,Orange,2020-12-28,2020-12-30
-Valle_Aosta,Red,2020-12-31,2021-01-03
-Valle_Aosta,Orange,2021-01-04,2021-01-04
-Valle_Aosta,Red,2021-01-05,2021-01-06
-Valle_Aosta,Yellow,2021-01-07,2021-01-16
-Valle_Aosta,Orange,2021-01-17,2021-01-31
-Valle_Aosta,Yellow,2021-02-01,2021-03-14
-Valle_Aosta,Orange,2021-03-15,2021-03-28
-Valle_Aosta,Red,2021-03-29,2021-04-25
+Umbria,Yellow,2021-04-26,2021-05-16
+Valle d'Aosta,Red,2020-11-06,2020-12-05
+Valle d'Aosta,Orange,2020-12-06,2020-12-19
+Valle d'Aosta,Yellow,2020-12-20,2020-12-23
+Valle d'Aosta,Red,2020-12-24,2020-12-27
+Valle d'Aosta,Orange,2020-12-28,2020-12-30
+Valle d'Aosta,Red,2020-12-31,2021-01-03
+Valle d'Aosta,Orange,2021-01-04,2021-01-04
+Valle d'Aosta,Red,2021-01-05,2021-01-06
+Valle d'Aosta,Yellow,2021-01-07,2021-01-16
+Valle d'Aosta,Orange,2021-01-17,2021-01-31
+Valle d'Aosta,Yellow,2021-02-01,2021-03-14
+Valle d'Aosta,Orange,2021-03-15,2021-03-28
+Valle d'Aosta,Red,2021-03-29,2021-04-25
+Valle d'Aosta,Orange,2021-04-26,2021-05-02
+Valle d'Aosta,Red,2021-05-03,2021-05-09
+Valle d'Aosta,Orange,2021-05-10,2021-05-16
 Veneto,Yellow,2020-11-06,2020-12-23
 Veneto,Red,2020-12-24,2020-12-27
 Veneto,Orange,2020-12-28,2020-12-30
@@ -282,3 +304,4 @@ Veneto,Yellow,2021-02-01,2021-03-07
 Veneto,Orange,2021-03-08,2021-03-14
 Veneto,Red,2021-03-15,2021-04-05
 Veneto,Orange,2021-04-06,2021-04-25
+Veneto,Yellow,2021-04-26,2021-05-16

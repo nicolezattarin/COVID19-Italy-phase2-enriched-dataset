@@ -3,11 +3,11 @@
 #include <fstream>
 using namespace std;
 
-// MCL in all C++ programs include in the comments
-// your name and date
-// instructions to compile 
-// dependencies (if any) 
-// usage
+// Author: Dave Norman Parmegiani
+// Date: May 2021
+// This source code doesn't have any dependency, so to compile one can simply use:
+// $ g++ fix_region.cpp -o fix_region
+// in the command line.
 
 // This program (once compiled) needs a region name as the argument and that region extracted file
 // in the directory, so one needs to execute the get_region script first.
@@ -26,7 +26,7 @@ using namespace std;
 // to be spelled Friuli_Venezia_Giulia and Valle d'Aosta needs to be spelled Valle_Aosta.
 
 
-// We have found some errors in the source file, and we will now list them:
+// I have found some errors in the source file, and I will now list them:
 
 // There are drops in the overall total number of tests in: Marche on 2021-01-24 of 12'043;
 // Piemonte on 2020-12-16 of 215'581; Valle d'Aosta on 2020-12-02 of 6'386.
@@ -49,7 +49,7 @@ using namespace std;
 // It is strongly suggested to keep a critical eye and to watch out for potential outliers.
 
 // On 2020-12-24 in P.A.Bolzano there's a discrepancy between the new cases and the number of cases of
-// the previous day. This error is so intrisic we couldn't think of an hotfix.
+// the previous day. This error is so intrisic I couldn't think of an hotfix.
 
 int main(int argc, char**argv){
 	if(argc!=2){
@@ -62,9 +62,9 @@ int main(int argc, char**argv){
 	fstream file_input, file_output;
 	int which_region, hold, currentcases, newcases, Thold, Rhold, Dhold;
 	int lastpreviousT, lastpreviousR, lastpreviousD;
-	string color, holdstring, Date[171];
-	int Current_cases[171], New_cases[171], T_Cumulative[171], T_daily[171];
-	int R_Cumulative[171], R_daily[171], D_Cumulative[171], D_daily[171];
+	string color, holdstring, Date[192];
+	int Current_cases[192], New_cases[192], T_Cumulative[192], T_daily[192];
+	int R_Cumulative[192], R_daily[192], D_Cumulative[192], D_daily[192];
 	float Tpercentage;
 	// The number of elements of the arrays is given by the number of records
 	// in the colors_daily dataset.
@@ -87,7 +87,7 @@ int main(int argc, char**argv){
 	// The number of iterations is the number of days since the start of the pandemic (included)
 	// in Italy to the desired final day of the time serie (included), which in our case is
 	// the final day of the colors_daily dataset. Keep in mind the dates in the region file are +1.
-	for(int i=0; i<428; i++){
+	for(int i=0; i<449; i++){
 		file_input>>holdstring>>hold>>hold>>hold>>hold>>currentcases>>
 			    hold>>newcases>>Rhold>>Dhold>>
 			    hold>>hold>>hold>>Thold>>
@@ -133,7 +133,7 @@ int main(int argc, char**argv){
 	R_daily[0]=R_Cumulative[0]-lastpreviousR;
 	D_daily[0]=D_Cumulative[0]-lastpreviousD;
 	T_daily[0]=T_Cumulative[0]-lastpreviousT;
-	for(int i=170; i>0; i--){
+	for(int i=191; i>0; i--){
 		R_daily[i]=R_Cumulative[i]-R_Cumulative[i-1];
 		D_daily[i]=D_Cumulative[i]-D_Cumulative[i-1];
 		T_daily[i]=T_Cumulative[i]-T_Cumulative[i-1];
@@ -151,7 +151,7 @@ int main(int argc, char**argv){
 	file_output<<"Date,Cases,New cases,New recovered,New deaths,"<<
 		     "New tests,Percentage of positive tests,Restricion color"<<endl;
 	*/
-	for(int i=0; i<171; i++){
+	for(int i=0; i<192; i++){
 		file_input>>Date[i];
 		Tpercentage=100*(float)New_cases[i]/(float)T_daily[i];
 		file_output<<Date[i]<<" "<<Current_cases[i]<<" "<<New_cases[i]<<" "<<

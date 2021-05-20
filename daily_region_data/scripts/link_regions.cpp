@@ -3,6 +3,12 @@
 #include <fstream>
 using namespace std;
 
+// Author: Dave Norman Parmegiani
+// Date: May 2021
+// This source code doesn't have any dependency, so to compile one can simply use:
+// $ g++ link_regions.cpp -o link_region
+// in the command line.
+
 // This program (once compiled) needs ALL fixed region files in the directory, so one needs to
 // execute the fix_all_regions script first (and possibly the get_all_regions script even before so
 // if that hadn't been done).
@@ -34,7 +40,7 @@ int main(){
 	file_output<<"Date,Region,Cases,New cases,New recovered,New deaths,"<<
 		     "New tests,Percentage of positive tests,Restricion color"<<endl;
 
-	for(int i=0; i<171; i++){
+	for(int i=0; i<192; i++){
 		for(int j=0; j<21; j++){
 			file_input[j]>>date;
 			file_output<<date<<",";
