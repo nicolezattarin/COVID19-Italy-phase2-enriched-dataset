@@ -1,7 +1,7 @@
-#Author
+# Author
 Dave Norman Parmegiani
 
-##Contents
+## Contents
 This folder contains the source files and scripts I have used to process them to write down the regions-daily.csv dataset one can find in the previous folder:
 
 * **cleaned-dpc-covid19-ita-regioni.csv**  is a source dataset, so **it is not a script**. The source for this file is a public Githup repository you can find [here](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni), but it has been slightly modified for easier use: the empty fields have been replaced by zeros and all commas from notes have been manually deleted. Also the cleaned dataset in this folder obviously will not coincide with the latest version in the source anymore.
@@ -24,7 +24,7 @@ Please do mind that further information can be found in the comments of each scr
 
 Please note that this folder also contains the **LICENSE.md** file, which is a standard license of use of the hereby presented scripts.
 
-##Usage
+## Usage
 As it has been somewhat implied in the previous section, there is a specific order to use these scripts:
 
 1. The **two .csv files** are source datasets, and the scripts have dependencies on them so they must be included in the same folder.
