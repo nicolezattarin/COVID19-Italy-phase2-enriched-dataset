@@ -1,5 +1,7 @@
 #!/bin/sh
-# This bash script simply reiterates the single get_region script for all regions.
+
+# This bash script simply reiterates the single get_region.sh script for all regions.
+
 ./get_region.sh Abruzzo
 ./get_region.sh Basilicata
 ./get_region.sh Calabria
