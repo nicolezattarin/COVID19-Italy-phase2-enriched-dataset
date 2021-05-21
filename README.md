@@ -11,8 +11,9 @@
 
 ## Sources
 - ISS
-- Protezione Civile
+- [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 - ISTAT
+
 
 ### Introduction
 
@@ -41,19 +42,22 @@ The CSV file contains the following columns: 'Region'-'Restriction'-'Start'-'End
 The file is organized so that Regions are sorted in a descending alphabetically order and for each region rows are chronologically ordered following the time series of the applied restrictions.
 Source: [covid-19-zone on GitHub](https://github.com/aborruso/covid-19-zone/blob/main/covid-19-zone.csv).
 
+For  a full description of the datasets see:
+[DAILY_DATA](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
 ### Indicators for risk assessment
 
 In Report_ISS we provide a dataset for every weekly report taken by the ISS, that is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally.
 
-Here you can find a full description of the datasets:
-[INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md
-)
+For  a full description of the datasets see:
+[INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
 ### Daily Region data
+The datasets available focus on the daily evolution of epidemiological data during the so called "phase 2" of Covid pandemic. For instance we provide daily evolution of parameters such as new cases registered, deaths, and hospitalisations. This kind of data allow us to study the spread of pandemic through time-series, you can see an example of possible analysis in [RESULTS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/RESULTS.md).
 
+For  a full description of the datasets see:
+[DAILY_DATA](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/daily_region_data/DAILY_DATA.md)
 
 ### Deaths
-
 
 The file deaths.csv contains a comparison between the mean deaths in 2015-2019 and 2020 deaths. The deaths are aggregated per month per province, indeed the header is organized as:
 
