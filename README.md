@@ -1,13 +1,24 @@
 # covid19-phase2-data-italy
 
+## Description
+
+This repository contains complied and curated datasets on COVID-19 epidemiological data at the regional level in Italy in the date range XXXX 2020-XXXX 2021 [MCL: fill dates here], and is designed to enable data analyses on the effects of different kinds of restrictions on the spreading of the infection and on the efficacy of estimators to predict when restrictions should be applied. The data sets are explicitly designed to give access to non-Italian speakers, and all the readme files are in English. 
+
 ## Authors 
+Marco Cosentino Lagomarsino (University of Milan and IFOM Foundation, Milan)
+Matteo Citterio (University of Milan)
+Marco Gherardi (University of Milan)
+Dave Parmegiani (University of Milan)
+Nicole Zattarin (University of Milan)
+
 
 ## Repository organisation
-- daily_ region_ data/ a full dataset with different epidemiological data
-- region_colors/ datasets regarding the restrictions imposed by the government
-- reports_ISS/ datasets with risk indicators from ISS weekly reports
-- results/ report of our main results and corresponding plots
-- deaths: deaths per province per month
+The repository is divided into the following folders:
+- daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data)
+- region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
+- reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
+- results/ (report of a few results we obtained with this data set, and corresponding plots)
+- deaths: (deaths per province per month, from ISTAT)
 
 ## Sources
 - [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
@@ -16,7 +27,7 @@
 - [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 
 ### Introduction
-From November on, in Italy, the spread of COVID19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
+From November on, in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ## Datasets
 
