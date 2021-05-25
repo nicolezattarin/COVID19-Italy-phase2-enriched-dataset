@@ -55,7 +55,6 @@ Indeed the Ministry of Health and the ISS in October 2020 published a “Toolbox
 A compartmental strategy was adopted, differentiating the imposed restriction in each region according to stress on the health system, number of new cases, intensive care occupancy and many other indicators (the list of which can be found in the [INDICATORS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md) file in the reports_ISS folder).
 
 
-
 **What do the colors mean?**
 
 The names of the different imposed regimes are, in ascending order of restraint, "white", "yellow", "orange" and "red". The "white" zone corresponds to a level of restraint close to "normality", with open restaurants and shops, and no limitations of movement across the entire region; on the opposite side of the spectrum, in the "red" zone the majority of shops are closed and commercial activities are heavily reduced, on top of travels between cities being forbidden (except for emergencies). Moreover, such restrictions have been subject to change overtime, so updated informations about the restrictions can be found on the [site](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=english&id=230#11) of the Italian Ministry of Health.
@@ -81,21 +80,11 @@ The folder "region_colors/" contains data on the regional restrictions imposed b
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
 
-[MCL: in this text we need to explain roughly how the different restrictions are implemented, face masks, curfew, mobility restrictions etc]
-
-[MCL:I pasted some text below => it needs to be allocated / cleaned]
-
-[MCL Let's add this ISS document to the repository and mention it in the readme files ]
-https://www.iss.it/documents/5430402/0/COVID+19_+strategy_ISS_MoH+%281%29.pdf/f0d91693-c7ce-880b-e554-643c049ea0f3?t=1604675600974
-[the best is to dowload the file and add it to the repository, because link will eventually expire]
-
-
 
 
 ### Indicators for risk assessment
-The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. 
+The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. These reports are avable just in italian, they're all collected [here](https://www.iss.it/monitoraggio-settimanale).
 
-[MCL also point to the ISS document mentioned above here]
 
 For a more detailed description of the datasets see: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
