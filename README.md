@@ -32,10 +32,13 @@ The repository is divided into the following folders:
 - [ISTAT](https://www.istat.it/en/archivio/240106)
 - [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 
+
 ### Introduction
 From November 2020  in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ## Datasets
+### Introduction
+From November 2020  in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ### Daily region data
 The datasets available in the folder "daily_ region_ data" focus on the daily evolution of epidemiological data during the so called "phase 2" of COVID19 pandemic [MCL:FILL INTERVAL OF DATES HERE]. For instance, we provide daily evolution of parameters such as new cases registered, deaths, and hospitalisations. This kind of data allow a user to study the spread of the pandemic through time-series; you can see an example of possible analysis in [RESULTS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/RESULTS.md).
@@ -43,6 +46,21 @@ The datasets available in the folder "daily_ region_ data" focus on the daily ev
 For a full description of the datasets see: [DAILY_DATA](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/daily_region_data/DAILY_DATA.md)
 
 ### Imposed restriction regimes
+**What do the color mean?**
+
+We provide data related to the restrictions imposed by the Italian government during the "2nd phase" period that extends from November 2020 to the day writing this file (so at least to the end of May 2021). Such restrictions were applied in an attempt of containing the spread of the COVID-19 epidemic. 
+
+Indeed the Ministry of Health and the ISS prov
+[Prevention and response to COVID-19: evolution of strategy and planning in the transition phase for the autumn-winter season. ]()
+
+A compartimental strategy was adopted, differentiating the imposed restriction in each region according to stress on the health system, number of new cases, intensive care occupancy and many other indicators (the list of which can be found in the [INDICATORS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md) file in the reports_ISS folder).
+
+The names of the different imposed regimes are, in ascending order of restraint, "white", "yellow", "orange" and "red". The "white" zone corresponds to a level of restraint close to "normality", with open restaurants and shops, and no limitations of movement across the entire region; on the opposite side of the spectrum, in the "red" zone the majority of shops are closed and commercial activities are heavily reduced, on top of travels between cities being forbidden (except for emergencies). Moreover, sush restrictions have been subject to change overtime, so updated informations about the restrictions can be found on the [site](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=english&id=230#11) of the Italian Ministry of Health.
+
+
+
+**Datasets provided**
+
 The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period [MCL date interval here]. There are four levels of restrictions, that are indicated in ascending order by the colors "white", "yellow", "orange" and "red". We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
@@ -55,7 +73,7 @@ For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://githu
 https://www.iss.it/documents/5430402/0/COVID+19_+strategy_ISS_MoH+%281%29.pdf/f0d91693-c7ce-880b-e554-643c049ea0f3?t=1604675600974
 [the best is to dowload the file and add it to the repository, because link will eventually expire]
 
-The White Zone
+**White Zone**
 
 At the moment no regions are is classified as a white zone (update 24/05/21).
 
@@ -69,7 +87,7 @@ The government has introduced a new “White Zone” in the hope of giving a sig
     Shopping malls will soon be able to reopen on weekends.
     Gyms, theaters, cinemas and cultural centers will be able to reopen gradually.
 
-The Yellow Zone
+**Yellow Zone**
 
 From May 24, all Italian regions will become yellow zones.
 
@@ -85,8 +103,7 @@ These regions are safer according to the 21 parameters that are being monitored.
     Theaters and cinemas will reopen with strict protocols (pre-assigned seats, in compliance with distancing rules. The capacity cannot exceed 50% of the maximum, up to 1000 spectators outdoors and 500 indoors for each room).
     Outdoor swimming pools have reopened; Gyms are reopening on May 24; skiing slopes reopening on May 22.
 
-The Orange Zone
-
+**Orange Zone**
 Italian regions are classified as orange zones when the Rt index is more than 1. At the moment no regions are classified as a orange zone (update 24/05/21). These regions are at an intermediate risk according to the 21 parameters that are being monitored. The restrictions for the regions in the orange zone are as follows:
 
    You’re prohibited to move around from 10pm till 5am. The government recommends to limit movements within your city as much as possible.
@@ -97,7 +114,7 @@ Italian regions are classified as orange zones when the Rt index is more than 1.
     Shopping malls are to stay closed on weekends and public holidays except for grocery stores, alimentari, pharmacies, newsstands, tabacchis and other shops that sell essential goods that are inside the shopping mall.
     Schools to reopen: only high schools will be in 50% presence.
 
-The Red Zone
+**Red Zone**
 
 Italian regions are classified as red zones when the Rt index is 1.25 or above. These regions are at the highest risk according to the 21 parameters that are being monitored and will be facing local lockdowns. At the moment no regions are classified as a red zone (update 24/05/21). The restrictions for the regions in the red zone are as follows:
 
