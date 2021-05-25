@@ -81,13 +81,6 @@ The folder "region_colors/" contains data on the regional restrictions imposed b
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
 
-[MCL: in this text we need to explain roughly how the different restrictions are implemented, face masks, curfew, mobility restrictions etc]
-
-[MCL:I pasted some text below => it needs to be allocated / cleaned]
-
-[MCL Let's add this ISS document to the repository and mention it in the readme files ]
-https://www.iss.it/documents/5430402/0/COVID+19_+strategy_ISS_MoH+%281%29.pdf/f0d91693-c7ce-880b-e554-643c049ea0f3?t=1604675600974
-[the best is to dowload the file and add it to the repository, because link will eventually expire]
 
 
 
