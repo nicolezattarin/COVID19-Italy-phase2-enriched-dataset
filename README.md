@@ -4,6 +4,12 @@
 
 This repository contains complied and curated datasets on COVID-19 epidemiological data at the regional level in Italy in the date range XXXX 2020-XXXX 2021 [MCL: fill dates here], and is designed to enable data analyses on the effects of different kinds of restrictions on the spreading of the infection and on the efficacy of estimators to predict when restrictions should be applied. The data sets are explicitly designed to give access to non-Italian speakers, and all the readme files are in English. 
 
+The repository was the outcome of the Computational Physics Laboratory Course taught in March-May 2021 at the Physics Department of the University of Milan
+(Teachers: Marco Cosentino Lagomarsino, Marco Gherardi; Data Challenge Supervisors: Federico Bassetti, Fabrizio Capuani, Pietro Cicuta, Jacopo Grilli)
+For more information about the course, see this preprint about the 2020 edition
+https://arxiv.org/abs/2104.09394
+
+
 ## Authors 
 Marco Cosentino Lagomarsino (University of Milan and IFOM Foundation, Milan)
 Matteo Citterio (University of Milan)
