@@ -86,9 +86,8 @@ For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://githu
 
 
 ### Indicators for risk assessment
-The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. 
+The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. These reports are avable just in italian, they're all collected [here](https://www.iss.it/monitoraggio-settimanale).
 
-[MCL also point to the ISS document mentioned above here]
 
 For a more detailed description of the datasets see: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
