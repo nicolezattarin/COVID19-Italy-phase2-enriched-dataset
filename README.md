@@ -13,18 +13,18 @@ https://arxiv.org/abs/2104.09394
 ## Authors 
 Marco Cosentino Lagomarsino (University of Milan and IFOM Foundation, Milan)
 Matteo Citterio (University of Milan)
-Marco Gherardi (University of Milan)
+Marco Gherardi  (University of Milan)
 Dave Parmegiani (University of Milan)
 Nicole Zattarin (University of Milan)
 
 
 ## Repository organisation
 The repository is divided into the following folders:
-- daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data)
+- daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data, taken form the Italian Civil Protection GitHub)
 - region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
 - reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
 - results/ (report of a few results we obtained with this data set, and corresponding plots)
-- deaths: (deaths per province per month, from ISTAT)
+- deaths: (deaths per province per month, from the Italian Statistics Institute ISTAT)
 
 ## Sources
 - [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
@@ -33,7 +33,7 @@ The repository is divided into the following folders:
 - [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 
 ### Introduction
-From November on, in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
+From November 2020  in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ## Datasets
 
@@ -46,6 +46,11 @@ For a full description of the datasets see: [DAILY_DATA](https://github.com/nico
 The "phase 2" period was characterised by regional restrictions imposed by the government. There are four levels of restrictions, that are indicated in ascending order by the colors "white", "yellow", "orange" and "red". We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
+
+[MCL: in this text we need to explain roughly how the different restrictions are implemented, face masks, curfew, mobility restrictions etc]
+
+[MCL Let's add this ISS document to the repository and mention it in the readme files ]
+https://www.iss.it/documents/5430402/0/COVID+19_+strategy_ISS_MoH+%281%29.pdf/f0d91693-c7ce-880b-e554-643c049ea0f3?t=1604675600974
 
 ### Indicators for risk assessment
 In report_ISS we provide a dataset for every weekly report taken by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally.
