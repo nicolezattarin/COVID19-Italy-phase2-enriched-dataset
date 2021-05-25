@@ -20,6 +20,7 @@ Nicole Zattarin (University of Milan)
 
 ## Repository organisation
 The repository is divided into the following folders:
+
 - daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data, taken form the Italian Civil Protection GitHub)
 - region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
 - reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
@@ -33,8 +34,6 @@ The repository is divided into the following folders:
 - [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 
 
-### Introduction
-From November 2020  in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ## Datasets
 ### Introduction
@@ -46,22 +45,39 @@ The datasets available in the folder "daily_ region_ data" focus on the daily ev
 For a full description of the datasets see: [DAILY_DATA](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/daily_region_data/DAILY_DATA.md)
 
 ### Imposed restriction regimes
-**What do the color mean?**
+**Strategy adopted to overcome the pandemia**
 
 We provide data related to the restrictions imposed by the Italian government during the "2nd phase" period that extends from November 2020 to the day writing this file (so at least to the end of May 2021). Such restrictions were applied in an attempt of containing the spread of the COVID-19 epidemic. 
 
-Indeed the Ministry of Health and the ISS prov
-[Prevention and response to COVID-19: evolution of strategy and planning in the transition phase for the autumn-winter season. ]()
+Indeed the Ministry of Health and the ISS in October 2020 published a “Toolbox” for Public Health Authorities responding to the SARS-CoV-2 outbreak in Italy, based on the 8 WHO Strategic Pillars of COVID- 19 response. The aim of this project is to prepare a strategy for the autumn-winter season, see:
+[Prevention and response to COVID-19: evolution of strategy and planning in the transition phase for the autumn-winter season](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/COVID%2019_%20strategy_ISS_MoH.pdf).
 
-A compartimental strategy was adopted, differentiating the imposed restriction in each region according to stress on the health system, number of new cases, intensive care occupancy and many other indicators (the list of which can be found in the [INDICATORS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md) file in the reports_ISS folder).
+A compartmental strategy was adopted, differentiating the imposed restriction in each region according to stress on the health system, number of new cases, intensive care occupancy and many other indicators (the list of which can be found in the [INDICATORS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md) file in the reports_ISS folder).
 
-The names of the different imposed regimes are, in ascending order of restraint, "white", "yellow", "orange" and "red". The "white" zone corresponds to a level of restraint close to "normality", with open restaurants and shops, and no limitations of movement across the entire region; on the opposite side of the spectrum, in the "red" zone the majority of shops are closed and commercial activities are heavily reduced, on top of travels between cities being forbidden (except for emergencies). Moreover, sush restrictions have been subject to change overtime, so updated informations about the restrictions can be found on the [site](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=english&id=230#11) of the Italian Ministry of Health.
+
+
+**What do the colors mean?**
+
+The names of the different imposed regimes are, in ascending order of restraint, "white", "yellow", "orange" and "red". The "white" zone corresponds to a level of restraint close to "normality", with open restaurants and shops, and no limitations of movement across the entire region; on the opposite side of the spectrum, in the "red" zone the majority of shops are closed and commercial activities are heavily reduced, on top of travels between cities being forbidden (except for emergencies). Moreover, such restrictions have been subject to change overtime, so updated informations about the restrictions can be found on the [site](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=english&id=230#11) of the Italian Ministry of Health.
+
+We're going to describe the restrictions in every zone referring to te period covered by our datasets. Indeed from May on, when we are assembling this repository, restrictions are being relieved. For instance see (in italian) [Coronavirus, cosa si può fare e cosa no nelle zone rosse, gialle e arancioni](https://www.ilsole24ore.com/art/coronavirus-mappa-e-restrizioni-zona-previste-nuovo-dpcm-ADDS4B0?refresh_ce=1).
+
+![](results/images/zones_restrictions.png)
+
+- White zone restrictions: night curfew moves from 10 pm to 11.30 pm and carry on until 5 am. People are allowed to move freely during this time band in every neighboring region that is white too. School attendance is re-established when possible, while public transports carry half of the passengers. Restaurants open 11 pm while bars are allowed to stay open till 9 pm. Shopping malls and stores are open. Museums are allowed to reopen on weekends. Gyms, theaters, cinemas and cultural centers will be able to reopen gradually, but not in the period considered.
+
+- Yellow zone restrictions: moving around from 11 pm until 5 am is forbidden, outside of this band movements are allowed within the same region. Travelling to other regions has been allowed just in November and half of December, after that moving between yellow regions has been forbidden until 26 April 2021. School attendance is guaranteed for lower schools and at 50% for high schools, public transports carry half of the passengers. Restaurants can be open until 18 pm and until 11 pm for delivery/takeaway. It's only allowed to sit with a maximum of four people per table, unless the people sitting at the same table are cohabitants.
+Shopping malls are closed on weekends, while theaters and cinemas stay closed. Gyms, theaters, cinemas and cultural centers will be able to reopen gradually, but not in the period considered.
+
+- Orange zone restrictions: curfew is like in yellow zone, outside of this band movements are allowed within the same municipality. For towns with less than 5000 inhabitants it is possible to travel outside the town without restrictions within a distance of 30km from the town. School attendance and public transport is regulated as in yellow zone. Restaurants can be open until 11 pm just for delivery/takeaway. Other restrictions are as in the previous yellow zone. 
+
+- Red zone restrictions: curfew is like in yellow and orange zone, outside of this band moving around the city is not allowed, unless it’s for work, study or health reasons. Outdoors working out is allowed only if it is individual and in the vicinity of home. Schools attendance is guaranteed just up to 1st grade of middle school, high school student must stay home, as well as university students. Restaurants and bars and cafes are to stay closed. Takeaway is allowed till 10pm and food delivery is allowed nonstop without any restrictions. Shops are to stay closed, except for grocery stores, alimentari, pharmacies, newsstands, tabacchis and other shops that sell essential goods.
 
 
 
 **Datasets provided**
 
-The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period [MCL date interval here]. There are four levels of restrictions, that are indicated in ascending order by the colors "white", "yellow", "orange" and "red". We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
+The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period [MCL date interval here].We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
 
@@ -73,59 +89,7 @@ For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://githu
 https://www.iss.it/documents/5430402/0/COVID+19_+strategy_ISS_MoH+%281%29.pdf/f0d91693-c7ce-880b-e554-643c049ea0f3?t=1604675600974
 [the best is to dowload the file and add it to the repository, because link will eventually expire]
 
-**White Zone**
 
-At the moment no regions are is classified as a white zone (update 24/05/21).
-
-The government has introduced a new “White Zone” in the hope of giving a signal for the future. Italian regions are classified as white zones when the Rt index is below 1 and there are 50 or fewer weekly cases of Covid-19 for every 100,000 people, for three weeks in a row.  These regions are the safest and have less restrictions than other regions. The restrictions for the regions in the white zone are as follows: 
-
-   The night curfew moves from 10pm to 11.30pm. That means you’re not allowed to move around from 11.30pm till 5am.  
-    Restaurants are allowed to serve until 11pm. Food delivery is allowed nonstop without any restrictions.
-    Bars and pubs are allowed to stay open till 9pm.
-    Museums are allowed to reopen on weekends. 
-    Travelling to second homes in different regions is allowed, as long as those regions are white, yellow or orange. You must show proof of ownership and can only go with your family.
-    Shopping malls will soon be able to reopen on weekends.
-    Gyms, theaters, cinemas and cultural centers will be able to reopen gradually.
-
-**Yellow Zone**
-
-From May 24, all Italian regions will become yellow zones.
-
-Italian regions are classified as yellow zones when the Rt index is below 1.
-
-These regions are safer according to the 21 parameters that are being monitored. The restrictions for the regions in the yellow zone are as follows:
-
-   You’re prohibited to move around from 11pm till 5am. In any case, the government recommends you to limit movements as much as possible. However, you are allowed to move in between regions in the yellow zone 
-    Traveling to other yellow regions is allowed. More about the green pass to travel to other regions below.
-    Museums are allowed to reopen on weekdays and only by reservation on weekends. 
-    Restaurants, bars, pubs, bakeries and gelaterias are reopening until 11pm, but only with outdoor seating and delivery/takeaway. They will be able to operate on weekends and bank holidays too, following the same opening hours 5am – 11pm. In any of the above-mentioned venues, you are only allowed to sit with a maximum of four people per table, unless you are living with the people you’re sitting with. Takeaway is allowed till 11pm for restaurants and 6pm for bars. Food delivery is allowed nonstop without any restrictions.
-    Shopping malls will reopen on weekends from May 22
-    Theaters and cinemas will reopen with strict protocols (pre-assigned seats, in compliance with distancing rules. The capacity cannot exceed 50% of the maximum, up to 1000 spectators outdoors and 500 indoors for each room).
-    Outdoor swimming pools have reopened; Gyms are reopening on May 24; skiing slopes reopening on May 22.
-
-**Orange Zone**
-Italian regions are classified as orange zones when the Rt index is more than 1. At the moment no regions are classified as a orange zone (update 24/05/21). These regions are at an intermediate risk according to the 21 parameters that are being monitored. The restrictions for the regions in the orange zone are as follows:
-
-   You’re prohibited to move around from 10pm till 5am. The government recommends to limit movements within your city as much as possible.
-    Traveling in between regions and cities is prohibited, unless it’s for work, study or health reasons. For towns with less than 5000 inhabitants it is possible to travel outside the town without restrictions within a distance of 30km from the town.
-    Traveling to second homes in different regions is allowed. You must show proof of ownership and can only go with your family. Restrictions regarding special provinces might apply:
-    Restaurants and bars are to stay closed. Takeaway is allowed till 10pm and food delivery is allowed nonstop without any restrictions.
-    Shops, hair salons and beauty centers are to stay open. 
-    Shopping malls are to stay closed on weekends and public holidays except for grocery stores, alimentari, pharmacies, newsstands, tabacchis and other shops that sell essential goods that are inside the shopping mall.
-    Schools to reopen: only high schools will be in 50% presence.
-
-**Red Zone**
-
-Italian regions are classified as red zones when the Rt index is 1.25 or above. These regions are at the highest risk according to the 21 parameters that are being monitored and will be facing local lockdowns. At the moment no regions are classified as a red zone (update 24/05/21). The restrictions for the regions in the red zone are as follows:
-
-   Traveling in between regions and cities is prohibited. Moving around your own city is not allowed, unless it’s for work, study or health reasons. 
-    You may work out outdoors but only by yourself and in the vicinity of your home.
-    Restaurants and bars and cafes are to stay closed. Takeaway is allowed till 10pm and food delivery is allowed nonstop without any restrictions.
-    Shops are to stay closed, except for grocery stores, alimentari, pharmacies, newsstands, tabacchis and other shops that sell essential goods.
-    Beauty salons, hairdressers and barber shops remain closed.
-    Visiting a private home is not allowed anymore.
-    Traveling to a second home is not allowed, even if the house is located in a white, yellow or orange region.
-    School restrictions are being loosened: kindergartens and elementary schools will reopen. High schools to remain closed.
 
 
 ### Indicators for risk assessment
