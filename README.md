@@ -20,7 +20,6 @@ Nicole Zattarin (University of Milan)
 
 ## Repository organisation
 The repository is divided into the following folders:
-
 - daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data, taken form the Italian Civil Protection GitHub)
 - region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
 - reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
@@ -34,6 +33,8 @@ The repository is divided into the following folders:
 - [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 
 
+### Introduction
+From November 2020  in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ## Datasets
 ### Introduction
@@ -60,7 +61,7 @@ The names of the different imposed regimes are, in ascending order of restraint,
 
 **Datasets provided**
 
-The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period [MCL date interval here].We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
+The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period [MCL date interval here]. There are four levels of restrictions, that are indicated in ascending order by the colors "white", "yellow", "orange" and "red". We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
 
@@ -103,7 +104,6 @@ These regions are safer according to the 21 parameters that are being monitored.
     Outdoor swimming pools have reopened; Gyms are reopening on May 24; skiing slopes reopening on May 22.
 
 **Orange Zone**
-
 Italian regions are classified as orange zones when the Rt index is more than 1. At the moment no regions are classified as a orange zone (update 24/05/21). These regions are at an intermediate risk according to the 21 parameters that are being monitored. The restrictions for the regions in the orange zone are as follows:
 
    You’re prohibited to move around from 10pm till 5am. The government recommends to limit movements within your city as much as possible.
