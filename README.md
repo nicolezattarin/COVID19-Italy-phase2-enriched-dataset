@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains complied and curated datasets on COVID-19 epidemiological data at the regional level in Italy in the date range XXXX 2020-XXXX 2021 [MCL: fill dates here], and is designed to enable data analyses on the effects of different kinds of restrictions on the spreading of the infection and on the efficacy of estimators to predict when restrictions should be applied. The data sets are explicitly designed to give access to non-Italian speakers, and all the readme files are in English. 
+This repository contains complied and curated datasets on COVID-19 epidemiological data at the regional level in Italy in the date range November 2020-May 2021, and is designed to enable data analyses on the effects of different kinds of restrictions on the spreading of the infection and on the efficacy of estimators to predict when restrictions should be applied. The data sets are explicitly designed to give access to non-Italian speakers, and all the readme files are in English. 
 
 The repository was the outcome of the Computational Physics Laboratory Course taught in March-May 2021 at the Physics Department of the University of Milan
 (Teachers: Marco Cosentino Lagomarsino, Marco Gherardi; Data Challenge Supervisors: Federico Bassetti, Fabrizio Capuani, Pietro Cicuta, Jacopo Grilli)
@@ -27,11 +27,6 @@ The repository is divided into the following folders:
 - results/ (report of a few results we obtained with this data set, and corresponding plots)
 - deaths: (deaths per province per month, from the Italian Statistics Institute ISTAT)
 
-## Sources
-- [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
-- [ISS](https://www.iss.it/web/iss-en)
-- [ISTAT](https://www.istat.it/en/archivio/240106)
-- [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
 
 
 
@@ -47,7 +42,7 @@ For a full description of the datasets see: [DAILY_DATA](https://github.com/nico
 ### Imposed restriction regimes
 **Strategy adopted to overcome the pandemia**
 
-We provide data related to the restrictions imposed by the Italian government during the "2nd phase" period that extends from November 2020 to the day writing this file (so at least to the end of May 2021). Such restrictions were applied in an attempt of containing the spread of the COVID-19 epidemic. 
+We provide data related to the restrictions imposed by the Italian government during the "2nd phase" period that extends from November 2020 to the May 2020. Such restrictions were applied in an attempt of containing the spread of the COVID-19 epidemic. 
 
 Indeed the Ministry of Health and the ISS in October 2020 published a “Toolbox” for Public Health Authorities responding to the SARS-CoV-2 outbreak in Italy, based on the 8 WHO Strategic Pillars of COVID- 19 response. The aim of this project is to prepare a strategy for the autumn-winter season, see:
 [Prevention and response to COVID-19: evolution of strategy and planning in the transition phase for the autumn-winter season](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/COVID%2019_%20strategy_ISS_MoH.pdf).
@@ -55,7 +50,7 @@ Indeed the Ministry of Health and the ISS in October 2020 published a “Toolbox
 A compartmental strategy was adopted, differentiating the imposed restriction in each region according to stress on the health system, number of new cases, intensive care occupancy and many other indicators (the list of which can be found in the [INDICATORS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md) file in the reports_ISS folder).
 
 
-**What do the colors mean?**
+**What do the colours mean?**
 
 The names of the different imposed regimes are, in ascending order of restraint, "white", "yellow", "orange" and "red". The "white" zone corresponds to a level of restraint close to "normality", with open restaurants and shops, and no limitations of movement across the entire region; on the opposite side of the spectrum, in the "red" zone the majority of shops are closed and commercial activities are heavily reduced, on top of travels between cities being forbidden (except for emergencies). Moreover, such restrictions have been subject to change overtime, so updated informations about the restrictions can be found on the [site](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioFaqNuovoCoronavirus.jsp?lingua=english&id=230#11) of the Italian Ministry of Health.
 
@@ -76,15 +71,16 @@ Shopping malls are closed on weekends, while theaters and cinemas stay closed. G
 
 **Datasets provided**
 
-The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period [MCL date interval here].We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
+The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period 2020-11-06 - 2021-05-16. We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
 
 For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md)
 
 
 
 ### Indicators for risk assessment
-The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. These reports are avable just in italian, they're all collected [here](https://www.iss.it/monitoraggio-settimanale).
+The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. These reports are avaible just in italian, they're all collected [here](https://www.iss.it/monitoraggio-settimanale).
 
+These parameters refer to quantity such as the reproduction index Rt, hospitalizations and contact tracing capability. They played a key role in guiding the Government to make policies that best fit every local situation. Indeed the indicators describe the evolution of pandemic, the ability of our health system to face the needs carried by it, and to monitor the spread of the disease. 
 
 For a more detailed description of the datasets see: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
@@ -95,3 +91,9 @@ The file "deaths.csv" contains a comparison between the mean deaths in 2015-2019
 - deaths per month in the period 2015-2019
 - deaths per month in 2020
 - deaths per month identified as covid cases (for the second semester of 2020)
+
+## Sources
+- [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
+- [ISS](https://www.iss.it/web/iss-en)
+- [ISTAT](https://www.istat.it/en/archivio/240106)
+- [Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile](https://github.com/pcm-dpc)
