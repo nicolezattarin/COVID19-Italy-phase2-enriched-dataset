@@ -19,9 +19,9 @@ The regions.daily.csv dataset contains information on a _daily temporal basis_ d
 
 8. Restriction color.
 
-This dataset could prove useful to visualize data over a time serie. An example of this can be found in the [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) file in the images subfolder of the results folder. The graphs in that file were drawn using Gnuplot.
+This dataset could prove useful to visualize data over a time series. An example of this can be found in the [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) file in the images subfolder of the results folder. The plots in that file were produced using Gnuplot.
 
-The source for all data except the restriction colors was the public Github repository of Dipartimento della Protezione Civile one can find [here](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni). The repository can be explored to find all sorts of other data as well.
+The source for all data except for the restriction colors was the public Github repository of "Dipartimento della Protezione Civile" (Italian Civil Protection) one can find [here](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni). The repository can be explored to find all sorts of other data as well.
 
 The restriction colors were instead taken from the colors\_daily.csv dataset one can find in the region\_colors folder, so, again, check the [REGIONS_RESTRICTIONS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md) file in the region\_colors folder for further informations about it.
 
