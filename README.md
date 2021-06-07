@@ -79,11 +79,12 @@ For a more detailed description of the datasets see the document: [INDICATORS](h
 The file "deaths.csv" in the folder "deaths" contains a comparison between the mean deaths in 2015-2019 and 2020 deaths, taken from the Italian Institute of Statistics (ISTAT). The deaths are aggregated per month per province. This data set is organized as follows (see also the file header):
 
 - CodProv (Province ISTAT code) 
-- deaths per month in the period 2015-2019
-- deaths per month in 2020
+- Province name 
+- deaths per month in the period 2015-2019 (whole year)
+- deaths per month in 2020 (whole year)
 - deaths per month identified as covid cases (for the second semester of 2020)
 
-In the same directory you can find the file ""
+
 ## Sources
 - [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
 - [ISS](https://www.iss.it/web/iss-en)
