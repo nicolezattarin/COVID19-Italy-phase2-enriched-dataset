@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains compiled and curated datasets on COVID-19 epidemiology at the regional level in Italy, in the date range November 2020-May 2021. The repository is designed to enable data analysis on the effects of different kinds of restrictions on the spreading of the infection as well as on the efficacy of estimators used to predict when restrictions should be applied. The data sets are explicitly designed to give access to non-Italian speakers, and all the readme files are in English. 
+This repository contains compiled and curated datasets on COVID-19 epidemiology at the regional level in Italy, in the date range November 2020-May 2021. The repository is designed to enable data analysis on the effects of different kinds of restrictions on the spreading of the infection as well as on the efficacy of estimators used to predict when restrictions should be applied. The data sets are explicitly designed to give access to this data to non-Italian speakers, and all the readme files are in English. 
 
 The repository was the outcome of the Computational Physics Laboratory Course taught in March-May 2021 at the Physics Department of the University of Milan
 (Teachers: Marco Cosentino Lagomarsino, Marco Gherardi; Data Challenge Supervisors: Federico Bassetti, Fabrizio Capuani, Pietro Cicuta, Jacopo Grilli)
@@ -17,7 +17,6 @@ Marco Gherardi  (University of Milan)
 Dave Parmegiani (University of Milan)  
 Nicole Zattarin (University of Milan)
 
-
 ## Repository organisation
 The repository is divided into the following folders:
 
@@ -28,18 +27,16 @@ The repository is divided into the following folders:
 5- results/ (report of a few results we obtained with this data set, and corresponding plots)
 
 
-
-
 ## Datasets
 ### Introduction
-From November 2020  in Italy, the spread of COVID-19 pandemic made necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
+From November 2020  in Italy, the spread of COVID-19 pandemic made it necessary to introduce restrictions, in order to reduce the impact of this disease on public health.
 
 ### 1 Daily region data
 The datasets available in the folder "daily_ region_ data" focus on the daily evolution of epidemiological data during the so called "phase 2" of COVID19 pandemic (November 2020-May 2021). For instance, we provide daily evolution of parameters such as new cases registered, deaths, and hospitalisations. This kind of data allow a user to study the spread of the pandemic through time-series; you can see an example of possible analysis in [RESULTS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/RESULTS.md).
 
 For a full description of the datasets see: [DAILY_DATA](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/daily_region_data/DAILY_DATA.md)
 
-### 2 Daily region data
+### 2 Restrictions
 
 The folder "region_colors/" contains data on the regional restrictions imposed by the government over the period 2020-11-06 - 2021-05-16. We provide two different datasets that are solely focused on such restrictions, and keep track of the restriction color in each region every day.
 
@@ -47,9 +44,9 @@ For a full description of the datasets see: [REGIONS_RESTRICTIONS](https://githu
 
 ## Description of the restriction regimes
 
-We provide data related to the restrictions imposed by the Italian government during the "phase 2" period that extends from November 2020 to the May 2020. Such restrictions were applied in an attempt of containing the spread of the COVID-19 epidemic. 
+We describe below the restrictions imposed by the Italian government during the "phase 2" period that extends from November 2020 to the May 2020. Such restrictions were applied in an attempt of containing the spread of the COVID-19 epidemic. 
 
-Indeed the Ministry of Health and the ISS in October 2020 published a “Toolbox” for Public Health Authorities responding to the SARS-CoV-2 outbreak in Italy, based on the 8 WHO Strategic Pillars of COVID- 19 response. The aim of this project was to prepare a strategy for the autumn-winter season, as described in the following document:
+The Ministry of Health and the ISS in October 2020 published a “Toolbox” for Public Health Authorities responding to the SARS-CoV-2 outbreak in Italy, based on the 8 WHO Strategic Pillars of COVID- 19 response. The aim of this project was to prepare a strategy for the autumn-winter season, as described in the following document:
 [Prevention and response to COVID-19: evolution of strategy and planning in the transition phase for the autumn-winter season](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/COVID%2019_%20strategy_ISS_MoH.pdf).
 
 A compartmental strategy was adopted, differentiating the imposed restrictions in each region according to stress on the health system, number of new cases, intensive care occupancy and many other indicators (the list of which can be found in the [INDICATORS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md) file in the reports_ISS folder).
@@ -68,16 +65,14 @@ We describe below the restrictions in every zone referring to the period covered
 
 
 
-
-
 ### 3 Indicators for risk assessment
-The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. These reports are avaible just in italian, they're all collected [here](https://www.iss.it/monitoraggio-settimanale).
+The folder "report_ISS" provides a compiled dataset for every weekly report published by the ISS, which is the Italian authority in the health field. Every week the ISS provides a report with all the indicators that are necessary to describe the pandemic situation in every region, thus to decide the right policy to apply locally. These reports are available just in Italian and as PDF documents, and they are all collected [here](https://www.iss.it/monitoraggio-settimanale).
 
-These parameters refer to quantity such as the reproduction index Rt, hospitalizations and contact tracing capability. They played a key role in guiding the Government to make policies that best fit every local situation. Indeed the indicators describe the evolution of pandemic, the ability of our health system to face the needs carried by it, and to monitor the spread of the disease. 
+These parameters refer to quantity such as the reproduction index Rt, hospitalizations and contact tracing capability. They played a key role in guiding the Italian Government to formulating policies. The indicators should describe the evolution of pandemic, the ability of the Italian health-care system to face the consequences, and the degree of spreading of the disease. 
 
-For a more detailed description of the datasets see: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
+For a more detailed description of the datasets see the document: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
-### Deaths
+### 4 Deaths
 The file "deaths.csv" contains a comparison between the mean deaths in 2015-2019 and 2020 deaths, taken from the Italian Institute of Statistics (ISTAT). The deaths are aggregated per month per province. This data set is organized as follows (see also the file header):
 
 - CodProv (Province ISTAT code) 
