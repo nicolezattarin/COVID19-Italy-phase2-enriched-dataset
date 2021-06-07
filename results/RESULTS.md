@@ -12,7 +12,7 @@ In order to quantify the effectiveness of a particular restriction lut us define
 
 In the previous figure the effectiveness of a given restriction evaluated with the *SNP normalized* observable is straightforwardly compared to the one computed for the Orange zone having on the x-axis a particular value of the observable and on the y-axis (splitted in two) the probability of count of days in which a specific SNP value has been observed.
 
-Given the large number of data, a T-test would produce extremely low p-values for both the histograms (from left to right: p1 ~ 4.e(-151), p2 ~ 8.e(-160), which allow to conclude with a low significance level that the differences between the averages of the compared restrictions are statistically significant, i.e. different restrictions have different effectiveness.
+Given the large number of data, a T-test would produce extremely low p-values for both the histograms (from left to right: p1 ~ 4.e(-151), p2 ~ 8.e(-160) ), which allow to conclude with a low significance level that the differences between the averages of the compared restrictions are statistically significant, i.e. different restrictions have different effectiveness.
 
 ## Restriction transitions 
 **Introduction**
@@ -32,7 +32,6 @@ It has been observed that 63.8% of the times that the Orange zone led to the yel
 Let us consider the 7 days moving average of the IC occupancy and of the new cases registered daily. 
 It's documented that there's a natural time to observe the results of a restrictive policy. Thus we introduce a 11 days shifting, since after this time we expect that the 97.5% of the exposed population manifested symptoms ([CDC, Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease](https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html)). 
 
-
 We consider the log return of such quantities (INSERT EQUATION), such observable
 measures the daily variation of a quantity, it is independent by the size of the population so that we can compare dataset of different Italian regions.
 Therefore we consider data of all regions, exception made by Molise, Valle d'Aosta, since datasets present irregular oscillations, and the islands, since their epidemiological situation is affected by their geographical collocation.
@@ -50,13 +49,26 @@ The plots below shows the distribution of the variable that we have considered, 
 <img src="images/logreturn_IC.png"  width="500"/>  <img src="images/logreturn_new_cases.png"  width="500"/>  
 
 
-## Deaths in the second semester of 2020 vs previous years
-
+## Time series visualization
 **Introduction**
 
-Let us focus on the Province of Milan, one of the most affected by Covid Pandemic, we now compare the mean deaths in the years 2015-2019 and deaths in 2020. We are focusing on the second semester in order to analyse the second wave of Pandemia.
-We assume that the mean mortality in this province is the one reported in the years 2015-19.
+Let us visualize the data from the time series. We won't do so in _this_ file, so please refer to the [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) file in the images folder. For each Region, we propose a graph representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We call the latter "percentage trend" in short.
 
+On the time axis, every major tic is the start of a month while every minor tic is the start of a week. The colored dashed lines indicate a change of restriction regime, where the color of the line is the new imposed regime from that day onward to the next line.
+
+Regions' populations vary wildly, so please note that the scale on the y-axes is generally different from region to region, in order to properly visualize the trends.
+
+**Conclusions**
+
+There are no conclusions to gather from these graphs, as they are not the product of any data analysis. These graphs are only meant as a mere example of data visualization, using the data collected in the [regions-daily.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/daily_region_data/regions-daily.csv) dataset.
+
+Still, these graphs do show on a first glance the difference in each Region's ability to contain the epidemy.
+
+## Deaths in the second semester of 2020 vs previous years
+**Introduction**
+
+Let us focus on the Province of Milan, one of the most affected by Covid Pandemic, we now compare the mean deaths in the years 2015-2019 and deaths in 2020. We are focusing on the second semester in order to analyse the second wave of the pandemy.
+We assume that the mean mortality in this province is the one reported in the years 2015-19.
 
 **Conclusions**
 
@@ -64,7 +76,7 @@ From the plot below we can conclude that in the 2020's last trimester the mean d
 
 In order to better understand the impact of Covid disease on mortality we refer to what is reported by ISS in [Impact of Covid pandemia on mortality: cause of death in people who died affected by Sars-Cov-2](https://www.istat.it/it/files//2020/07/Report_ISS_Istat_Cause-di-morte-Covid.pdf).
 
-According to this report, Covid-19 directly causes death just in the 89% of people died with this disease. In addiction the set of people who died with Covid and because of it can have a non-trivial intersection with the group of people who would have died anyway. Accordingly, ISS reports that the 71.8% died with at least another possible cause of death, beyond Covid.
+According to this report, Covid-19 directly causes death just in the 89% of people died with this disease. In addition the set of people who died with Covid and because of it can have a non-trivial intersection with the group of people who would have died anyway. Accordingly, ISS reports that the 71.8% died with at least another possible cause of death, beyond Covid.
 
 Introducing this two scalings we see that the sum of usual mortality and death, that we suppose are really caused by Covid, still exceed the observed mortality in 2020, but the values tend to be closer. 
 
