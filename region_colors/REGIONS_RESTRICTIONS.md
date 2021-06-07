@@ -1,7 +1,6 @@
-# What do the colors mean?
 
 ## colors_daily.csv
-The **colors_daily.csv** dataset contains information about the restriction regime in every region on every date since the start of such restrictions. The fields are as follows:
+The **colors_daily.csv** dataset contains information about the restriction regime in every region on each day since the start of such restrictions. The fields are as follows:
 
 * The date indicating the day the entry refers to (YYYY-MM-DD).
 
