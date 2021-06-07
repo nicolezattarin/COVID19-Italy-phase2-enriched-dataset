@@ -1,4 +1,3 @@
-
 ## colors_daily.csv
 The **colors_daily.csv** dataset contains information about the restriction regime in every region on each day since the start of such restrictions. The fields are as follows:
 
