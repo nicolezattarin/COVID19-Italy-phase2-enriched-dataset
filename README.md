@@ -73,7 +73,7 @@ These parameters refer to quantity such as the reproduction index Rt, hospitaliz
 For a more detailed description of the datasets see the document: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
 ### 4 Deaths
-The file "deaths.csv" contains a comparison between the mean deaths in 2015-2019 and 2020 deaths, taken from the Italian Institute of Statistics (ISTAT). The deaths are aggregated per month per province. This data set is organized as follows (see also the file header):
+The file "deaths.csv" in the folder "deaths" contains a comparison between the mean deaths in 2015-2019 and 2020 deaths, taken from the Italian Institute of Statistics (ISTAT). The deaths are aggregated per month per province. This data set is organized as follows (see also the file header):
 
 - CodProv (Province ISTAT code) 
 - deaths per month in the period 2015-2019
