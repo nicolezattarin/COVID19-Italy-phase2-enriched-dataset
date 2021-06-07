@@ -20,11 +20,11 @@ Nicole Zattarin (University of Milan)
 ## Repository organisation
 The repository is divided into the following folders:
 
-1- daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data, taken from the Italian Civil Protection GitHub)
-2- region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
-3- reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
-4- deaths: (deaths per province per month, from the Italian Statistics Institute ISTAT)
-5- results/ (report of a few results we obtained with this data set, and corresponding plots)
+- daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data, taken from the Italian Civil Protection GitHub)
+- region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
+- reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
+- deaths/  (deaths per province per month, from the Italian Statistics Institute ISTAT)
+- results/ (report of a few results we obtained with this data set, and corresponding plots)
 
 
 ## Datasets
