@@ -2,7 +2,7 @@
 ## Orange zone effectiveness
 **Introduction**
 
-Let us consider all the dates in which one between the 'Red'-'Orange'-'Yellow' restriction has been imposed in every italian region and a suitable time lag of 14 days with whom evaluate the results of the restriction (the 14 days time shift could be seen as the gap between the exposure to the virus and the outbreak of the symptons in an individual https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
+Let us consider all the dates in which one between the 'Red'-'Orange'-'Yellow' restriction has been imposed in every italian region and a suitable time lag of 14 days with whom evaluate the results of the restriction (the 14 days time shift could be seen as the gap between the exposure to the virus and the outbreak of the symptoms in an individual https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
 
 In order to quantify the effectiveness of a particular restriction lut us define the observable *SNP normalized* as the deviation of new positives (the difference between the number of today's new positives and yesterday's) normalized over today's new positives.
 
@@ -17,10 +17,9 @@ Given the large number of data, a T-test would produce extremely low p-values fo
 ## Restriction transitions 
 **Introduction**
 
-Let us consider all the impositions of the Orange restriction with the exception of the Christmas period, in which restrictions were imposed regardless of the epidemiological situation but rather due to an attempt of mantaining the social distancing during the holydays.
+Let us consider all the impositions of the Orange restriction with the exception of the Christmas period, in which restrictions were imposed regardless of the epidemiological situation but rather due to an attempt of maintaining the social distancing during the holidays.
 
 **Conclusions**
-
 
 <img src="images/restrictions.png"  width="800"/>  
 
@@ -41,6 +40,12 @@ Therefore we consider data of all regions, exception made by Molise, Valle d'Aos
 A first result can be gained observing the red and yellow zones before Christmas holiday. In fact at that time restriction became independent from local situations, in order to *prevent* a possible increasing of cases due to people's desire to share time with their relatives. 
 
 **Conclusions**
+
+Our analysis has showed that, during the stay of a region in red zone, both IC hospitalizations and daily cases registered tend to decrease. 
+
+The plots below shows the distribution of the variable that we have considered, the log return: if if is more than zero it means that the quantity considered has registered a growth. It is possible to notice that the distributions referring to red zone exhibit both a negative mean value and a negative peak. Comparing these distributions to the ones concerning yellow zones we clearly see that the in the latter case the distributions tend to be more symmetric around zero. Even if he mean is a little negative, it is not possible to neglect that during a yellow zones there are a lot of days that register an increase both in IC stay and in new cases registered.
+
+
 
 <img src="images/logreturn_IC.png"  width="500"/>  <img src="images/logreturn_new_cases.png"  width="500"/>  
 
