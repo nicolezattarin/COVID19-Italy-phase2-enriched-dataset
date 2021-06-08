@@ -64,7 +64,7 @@ On the time axis, every major tick is the start of a month while every minor tic
 
 Regions' populations vary wildly, so please note that the scale on the y-axes is generally different from region to region, this is an important aspect to consider when analyzing these trends.
 
-These graphs show, at a first glance, the difference in each Region's ability to contain the epidemic.
+These plots show, at a first glance, the difference in each Region's ability to contain the epidemic.
 
 ## Deaths in the second semester of 2020 vs previous years
 **Introduction**
