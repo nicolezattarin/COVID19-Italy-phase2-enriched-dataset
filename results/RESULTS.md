@@ -22,39 +22,25 @@ We considered all the orange-zone restriction with the exception of the Christma
 <img src="images/restrictions.png"  width="800"/>  
 Figure 2. **Transitions from orange-zone to yellow-zone restrictions are more likely and occur for longer-lasting restriction periods**.  Left panel: 63.8% of the times the Orange zone led to the yellow one. Right panel: histogram of orange-zone restriction durations colored by transition. The more an Orange zone persists, the more likely it will become yellow. 
 
-## Yellow and red zones before Christmas 2020
-**Introduction**
+## Red-zone restrictions before Christmas 2020 led to decreased cases and intensive-care hospitalizations
 
-Let us consider the 7 days moving average of the IC occupancy and of the new cases registered daily. 
-It's documented that there's a natural time to observe the results of a restrictive policy. Thus we introduce a 11 days shifting, since after this time we expect that the 97.5% of the exposed population manifested symptoms ([CDC, Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease](https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html)). 
+We As above, we performed this analysis us consider the 7 days moving average of the IC occupancy and of the new cases registered daily.  In this case we introduced a 11 days delay shift. After this time we expect that the 97.5% of the exposed population manifested symptoms ([CDC, Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease](https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html)). 
 
-We consider the log return of such quantities ![\log(n(t+1)/n(t))](https://latex.codecogs.com/svg.latex?\log(n(t&plus;1)/n(t))&space;) 
+We consider the log returns 
+![\log(n(t+1)/n(t))](https://latex.codecogs.com/svg.latex?\log(n(t&plus;1)/n(t))&space;),
+where _n_ represents either the IC occupancies or the new cases registered daily. The log return measures the daily variation of a quantity independently on the size of the population. Thus, we can compare data from different Italian regions. Hence, we considered agin data from all regions, except for Molise and Valle d'Aosta (since the datasets in these regions present irregular oscillations possibly due to recording mistakes), and the islands, since their epidemiological situation is affected by their geographical isolation.
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
-
-(INSERT EQUATION), such observable
-measures the daily variation of a quantity, it is independent by the size of the population so that we can compare dataset of different Italian regions.
-Therefore we consider data of all regions, exception made by Molise, Valle d'Aosta, since datasets present irregular oscillations, and the islands, since their epidemiological situation is affected by their geographical collocation.
-
-A first result can be gained observing the red and yellow zones before Christmas holiday. In fact at that time restriction became independent from local situations, in order to *prevent* a possible increasing of cases due to people's desire to share time with their relatives. 
-
-**Conclusions**
-
-Our analysis has showed that, during the stay of a region in red zone, both IC hospitalizations and daily cases registered tend to decrease. 
-
-The plots below shows the distribution of the variable that we have considered, the log return: if if is more than zero it means that the quantity considered has registered a growth. It is possible to notice that the distributions referring to red zone exhibit both a negative mean value and a negative peak. Comparing these distributions to the ones concerning yellow zones we clearly see that the in the latter case the distributions tend to be more symmetric around zero. Even if he mean is a little negative, it is not possible to neglect that during a yellow zones there are a lot of days that register an increase both in IC stay and in new cases registered.
-
-
+Figure 3  concerns the red- and yellow-zone restrictions before Christmas 2020 holiday.  At that time, restrictions in Italy became independent from local situations, in order to *prevent* a possible increase of cases due to decreased social distancing and travel. The plots show that, during the red-zone restriction, both IC hospitalizations and daily cases registered tend to decrease. Conversely, during yellow-zone restrictions the growth rates of both IC hospitalizations and new registered cases.
 
 <img src="images/logreturn_IC.png"  width="500"/>  <img src="images/logreturn_new_cases.png"  width="500"/>  
+Figure 3. **Preventive red-zone restrictions were effective**. The plots show the distribution of log returns for red-zone and yellow-zone restrictions before Christmas 2020, positive log returns corresponding to growth. The distributions referring to red zone exhibit both a negative mean value and a negative peak. Comparing these distributions to the ones concerning yellow zones suggests the latter case the distributions tend to be more symmetric around zero. 
 
 
 ## Time series visualization
-**Introduction**
 
-We now aim to provide an example of possible visualization the data from the time series, so we refer to the dataset [daily_region_data](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/daily_region_data). 
+We now aim to provide an example of possible direct visualization of the data from the time series provided in this repository. We refer to the dataset [daily_region_data](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/daily_region_data). 
 
-In [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) we propose, for each Region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter "percentage trend".
+The file [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) contains, for each Region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter "percentage trend".
 
 An example (for Piemonte) is the plot below:
 ![](images/piemonte_time_series.pdf)
