@@ -2,6 +2,17 @@
 
 This document contains a few simple results obtained by statistical analysis of the data contained in this repository. 
 
+## Time series visualization
+
+We first aim to provide an example of possible direct visualization of the data from the time series provided in this repository. We refer to the dataset [daily_region_data](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/daily_region_data). 
+
+The file [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) contains, for each Italian region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter as "percentage trend". The population of Italian regions varies wildly, so please note that the scale on the y-axes is generally different from region to region, this is an important aspect to consider when analyzing these trends. These plots can be used for a first visual inspection of the difference in each Region's ability to contain the epidemic. An example (for Piemonte) is reported in Figure 0.  
+
+<img src="images/piemonte_time_series.png" width="600"/>  
+Figure 0. Example of visulization of the data in this repository. On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
+
+
+
 ## The red- and orange-zone restrictions decrease the specific increment of new positives  
 
 Considering all the dates in which one between the Red- Orange- or Yellow-zone restriction has been imposed in every Italian region, we evaluated the effects of the restriction after a time lag of 14 days. The 14 days time shift can be seen as the gap between the exposure to the virus and the outbreak/detection of the symptoms in an individual, see e.g. this [study](https://www.acpjournals.org/doi/10.7326/m20-0504).
@@ -35,21 +46,6 @@ Figure 3  concerns the red- and yellow-zone restrictions before Christmas 2020 h
 <img src="images/logreturn_IC.png"  width="500"/>  <img src="images/logreturn_new_cases.png"  width="500"/>  
 Figure 3. **Preventive red-zone restrictions were effective**. The plots show the distribution of log returns for red-zone and yellow-zone restrictions before Christmas 2020, positive log returns corresponding to growth. The distributions referring to red zone exhibit both a negative mean value and a negative peak. Comparing these distributions to the ones concerning yellow zones suggests the latter case the distributions tend to be more symmetric around zero. 
 
-
-## Time series visualization
-
-We now aim to provide an example of possible direct visualization of the data from the time series provided in this repository. We refer to the dataset [daily_region_data](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/daily_region_data). 
-
-The file [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) contains, for each Region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter "percentage trend".
-
-An example (for Piemonte) is the plot below:
-![](images/piemonte_time_series.pdf)
-
-On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
-
-Regions' populations vary wildly, so please note that the scale on the y-axes is generally different from region to region, this is an important aspect to consider when analyzing these trends.
-
-These graphs show, at a first glance, the difference in each Region's ability to contain the epidemic.
 
 ## Deaths in the second semester of 2020 vs previous years
 **Introduction**
