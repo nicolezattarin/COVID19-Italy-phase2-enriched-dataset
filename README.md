@@ -86,7 +86,7 @@ The file "deaths.csv" in the folder "mortality" contains a comparison between th
 - deaths per month in 2020 (whole year)
 - deaths per month identified as covid cases (for the second semester of 2020)
 
-### 5. Statistics of population
+### 5. Population statistics
 The folder [population_stats](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/population_stats) provides two useful datasets, referring to Italian provinces and regions, and can also be used to map provinces into regions. 
 [provinces_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/provinces_population.csv) provides a description of provinces code and name, their population and the percentage over the total italian population.
 Wile [regions_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/regions_population.csv) refers to regions and provides data about the population amount, surface, density of inhabitants, number of towns and number of provinces in such region.
