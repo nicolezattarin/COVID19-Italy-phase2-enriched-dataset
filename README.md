@@ -23,7 +23,7 @@ The repository is divided into the following folders:
 - daily_ region_ data/ (a full dataset with different kinds of standard epidemiological data, taken from the Italian Civil Protection GitHub)
 - region_colors/ (compiled datasets regarding the restrictions imposed by the Italian government over the considered period)
 - reports_ISS/ (compiled datasets with risk indicators from the Italian National Institute of Health - ISS - weekly reports)
-- deaths/  (deaths per province per month, from the Italian Statistics Institute ISTAT)
+- mortality/  (deaths per province per month, from the Italian Statistics Institute ISTAT)
 - population_stats/ (population statistics by Italian province and region)
 - results/ (report of a few results we obtained with this data set, and corresponding plots)
 
@@ -78,7 +78,7 @@ These parameters refer to quantity such as the reproduction index Rt, hospitaliz
 For a more detailed description of the datasets see the document: [INDICATORS](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/reports_ISS/INDICATORS.md)
 
 ### 4. Deaths
-The file "deaths.csv" in the folder "deaths" contains a comparison between the mean deaths in 2015-2019 and 2020 deaths, taken from the Italian Institute of Statistics (ISTAT). The deaths are aggregated per month per province. This data set is organized as follows (see also the file header):
+The file "deaths.csv" in the folder "mortality" contains a comparison between the mean deaths in 2015-2019 and 2020 deaths, taken from the Italian Institute of Statistics (ISTAT). The deaths are aggregated per month per province. This data set is organized as follows (see also the file header):
 
 - CodProv (Province ISTAT code) 
 - Province name 
@@ -86,7 +86,7 @@ The file "deaths.csv" in the folder "deaths" contains a comparison between the m
 - deaths per month in 2020 (whole year)
 - deaths per month identified as covid cases (for the second semester of 2020)
 
-### 5. Statistics of population
+### 5. Population statistics
 The folder [population_stats](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/population_stats) provides two useful datasets, referring to Italian provinces and regions, and can also be used to map provinces into regions. 
 [provinces_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/provinces_population.csv) provides a description of provinces code and name, their population and the percentage over the total italian population.
 Wile [regions_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/regions_population.csv) refers to regions and provides data about the population amount, surface, density of inhabitants, number of towns and number of provinces in such region.
