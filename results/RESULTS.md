@@ -52,17 +52,18 @@ The plots below shows the distribution of the variable that we have considered, 
 ## Time series visualization
 **Introduction**
 
-Let us visualize the data from the time series. We won't do so in _this_ file, so please refer to the [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) file in the images folder. For each Region, we propose a graph representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We call the latter "percentage trend" in short.
+We now aim to provide an example of possible visualization the data from the time series, so we refer to the dataset [daily_region_data](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/daily_region_data). 
 
-On the time axis, every major tic is the start of a month while every minor tic is the start of a week. The colored dashed lines indicate a change of restriction regime, where the color of the line is the new imposed regime from that day onward to the next line.
+In [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) we propose, for each Region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter "percentage trend".
 
-Regions' populations vary wildly, so please note that the scale on the y-axes is generally different from region to region, in order to properly visualize the trends.
+An example (for Piemonte) is the plot below:
+![](images/piemonte_time_series.pdf)
 
-**Conclusions**
+On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
 
-There are no conclusions to gather from these graphs, as they are not the product of any data analysis. These graphs are only meant as a mere example of data visualization, using the data collected in the [regions-daily.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/daily_region_data/regions-daily.csv) dataset.
+Regions' populations vary wildly, so please note that the scale on the y-axes is generally different from region to region, this is an important aspect to consider when analyzing these trends.
 
-Still, these graphs do show on a first glance the difference in each Region's ability to contain the epidemy.
+These graphs show, at a first glance, the difference in each Region's ability to contain the epidemic.
 
 ## Deaths in the second semester of 2020 vs previous years
 **Introduction**

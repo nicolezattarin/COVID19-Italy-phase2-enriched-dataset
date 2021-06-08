@@ -84,6 +84,11 @@ The file "deaths.csv" in the folder "deaths" contains a comparison between the m
 - deaths per month in 2020 (whole year)
 - deaths per month identified as covid cases (for the second semester of 2020)
 
+### 5. Statistics of population
+In the folder []()
+
+Trentino-Alto-Adige
+
 
 ## Sources
 - [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
