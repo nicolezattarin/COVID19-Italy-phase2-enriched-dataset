@@ -57,6 +57,7 @@ The names of the different imposed regimes or "zones" are, in ascending order of
 
 ![](results/images/zones_restrictions.png)
 
+
 We describe below the restrictions in every zone referring to the period covered by our datasets. Starting from May 2021, when we are assembling this repository, the restrictions are being gradually released. For instance see (in Italian) [Coronavirus, cosa si può fare e cosa no nelle zone rosse, gialle e arancioni](https://www.ilsole24ore.com/art/coronavirus-mappa-e-restrizioni-zona-previste-nuovo-dpcm-ADDS4B0?refresh_ce=1).
 
 - _White zone restrictions_: night curfew moves from 10pm to 11.30pm, until 5am. Outside curfews, people are allowed to move freely across neighboring regions that are also white zones. School attendance is re-established when possible, while public transports may carry passengers up to half of their capacity. Restaurants open until 11 pm while bars are allowed to stay open until 9 pm. Shopping malls and stores are open. Museums are allowed to reopen on weekends. Gyms, theaters, cinemas and cultural centers may reopen gradually under such restrictions, but they did not open in the period considered in this dataset.
