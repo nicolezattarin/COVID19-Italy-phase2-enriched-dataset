@@ -29,6 +29,7 @@ Let us consider the 7 days moving average of the IC occupancy and of the new cas
 It's documented that there's a natural time to observe the results of a restrictive policy. Thus we introduce a 11 days shifting, since after this time we expect that the 97.5% of the exposed population manifested symptoms ([CDC, Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease](https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html)). 
 
 We consider the log return of such quantities ![prova]("https://latex.codecogs.com/svg.image?\log(n(t&plus;1)/n(t))&space;" title="\log(n(t+1)/n(t)) ")
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 (INSERT EQUATION), such observable
 measures the daily variation of a quantity, it is independent by the size of the population so that we can compare dataset of different Italian regions.
