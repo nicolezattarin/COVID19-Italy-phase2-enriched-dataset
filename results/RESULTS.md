@@ -3,7 +3,6 @@
 This document contains a few simple results obtained by statistical analysis of the data contained in this repository. 
 
 ## The red- and orange-zone restrictions decrease the specific increment of new positives  
-**Introduction**
 
 Considering all the dates in which one between the Red- Orange- or Yellow-zone restriction has been imposed in every Italian region, we evaluated the effects of the restriction after a time lag of 14 days. The 14 days time shift can be seen as the gap between the exposure to the virus and the outbreak/detection of the symptoms in an individual, see e.g. this [study](https://www.acpjournals.org/doi/10.7326/m20-0504).
 
@@ -13,16 +12,15 @@ Figure 1 compares the histograms of SNP normalized increments. Given the large n
 
 
 <img src="images/histograms.png"  width="800"/>  
-Figure 1. Red- and orange-zone restrictions statistically decrease the spreading. The plots report histograms of normalized increments of new cases for different restictions. The split _y_-axis is used to ease the visual comparison of the historgrams. Red- and orange-zone restrictions show a clear bias toward negative normalized increments.  
+Figure 1. **Red- and orange-zone restrictions statistically decrease the infection**. The plots report histograms of normalized increments of new cases for different restictions. The split _y_-axis is used to ease the visual comparison of the historgrams. Red- and orange-zone restrictions show a clear bias toward negative normalized increments.  
 
 
 ## Longer-lasting orange-zone restrictions tend to transition to looser restrictions 
-**Introduction**
 
 We considered all the orange-zone restriction with the exception of the Christmas period (in which restrictions were imposed regardless of the epidemiological situation in an attempt to reduce risks), and asked for their outcome. Figure 2 illustrates this analysis. 63.8% of the applied orange-zone restrictions led to the looser yellow zone. The orange-zone restrictions that had a positive outcome were the longer-lasting ones. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurence of the sequencies containing the orange zone was 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (2.3% of R-O-R and 18.6% of R-O-Y) suggesting that the outcome is not simply a consequence of the autonomous descent of the epidemiological curve. Conversely, the shorter-lasting orange-zone restrictions might have turned into stricter restrictions before the delay could show their efficacy.    
 
 <img src="images/restrictions.png"  width="800"/>  
-Figure 2. Transitions from orange-zone to yellow-zone restrictions are more likely and occur for longer-lasting restriction periods.  Left panel: 63.8% of the times the Orange zone led to the yellow one. Right panel: histogram of orange-zone restriction durations colored by transition. The more an Orange zone persists, the more likely it will become yellow. 
+Figure 2. **Transitions from orange-zone to yellow-zone restrictions are more likely and occur for longer-lasting restriction periods**.  Left panel: 63.8% of the times the Orange zone led to the yellow one. Right panel: histogram of orange-zone restriction durations colored by transition. The more an Orange zone persists, the more likely it will become yellow. 
 
 ## Yellow and red zones before Christmas 2020
 **Introduction**
@@ -30,7 +28,9 @@ Figure 2. Transitions from orange-zone to yellow-zone restrictions are more like
 Let us consider the 7 days moving average of the IC occupancy and of the new cases registered daily. 
 It's documented that there's a natural time to observe the results of a restrictive policy. Thus we introduce a 11 days shifting, since after this time we expect that the 97.5% of the exposed population manifested symptoms ([CDC, Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus Disease](https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html)). 
 
-We consider the log return of such quantities (INSERT EQUATION), such observable
+We consider the log return of such quantities ![prova]("https://latex.codecogs.com/svg.image?\log(n(t&plus;1)/n(t))&space;" title="\log(n(t+1)/n(t)) ")
+
+(INSERT EQUATION), such observable
 measures the daily variation of a quantity, it is independent by the size of the population so that we can compare dataset of different Italian regions.
 Therefore we consider data of all regions, exception made by Molise, Valle d'Aosta, since datasets present irregular oscillations, and the islands, since their epidemiological situation is affected by their geographical collocation.
 
