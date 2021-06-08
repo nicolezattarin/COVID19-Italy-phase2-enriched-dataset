@@ -9,7 +9,7 @@ Considering all the dates in which one between the Red- Orange- or Yellow-zone r
 
 In order to quantify the efficacy of a particular restriction we defined the observable *SNP normalized* as the increment of new positives (the difference between the number of new positives recorded the day after a given day and the same number recoded in the day itself) normalized over the current value of new positives.
 
-<img src="images/histograms.png"  width="800"/>  
+[efficacia_restrizioni_star.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/files/6616762/efficacia_restrizioni_star.pdf)
 
 In the previous figure the effectiveness of a given restriction evaluated with the *SNP normalized* observable is straightforwardly compared to the one computed for the Orange zone having on the x-axis a particular value of the observable and on the y-axis (splitted in two) the probability of count of days in which a specific SNP value has been observed.
 
