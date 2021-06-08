@@ -8,8 +8,8 @@ We first aim to provide an example of possible direct visualization of the data 
 
 The file [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) contains, for each Italian region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter as "percentage trend". The population of Italian regions varies wildly, so please note that the scale on the y-axes is generally different from region to region, this is an important aspect to consider when analyzing these trends. These plots can be used for a first visual inspection of the difference in each Region's ability to contain the epidemic. An example (for Piemonte) is reported in Figure 0.  
 
-<img src="images/piemonte_time_series.png" width="600"/>  
-Figure 0. Example of visulization of the data in this repository. On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
+<img src="images/piemonte_time_series.png" width="800"/>  
+Figure 0. **Example of visualization of the data in this repository**. On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
 
 
 
@@ -23,7 +23,7 @@ Figure 1 compares the histograms of SNP normalized increments. Given the large n
 
 
 <img src="images/histograms.png"  width="800"/>  
-Figure 1. **Red- and orange-zone restrictions statistically decrease the infection**. The plots report histograms of normalized increments of new cases for different restictions. The split _y_-axis is used to ease the visual comparison of the historgrams. Red- and orange-zone restrictions show a clear bias toward negative normalized increments.  
+Figure 1.** Red- and orange-zone restrictions statistically decrease the infection**. The plots report histograms of normalized increments of new cases for different restictions. The split _y_-axis is used to ease the visual comparison of the historgrams. Red- and orange-zone restrictions show a clear bias toward negative normalized increments.  
 
 
 ## Longer-lasting orange-zone restrictions tend to transition to looser restrictions 
@@ -53,7 +53,6 @@ Figure 3. **Preventive red-zone restrictions were effective**. The plots show th
 Let us focus on the Province of Milan, one of the most affected by Covid Pandemic, we now compare the mean deaths in the years 2015-2019 and deaths in 2020. We are focusing on the second semester in order to analyse the second wave of the pandemy.
 We assume that the mean mortality in this province is the one reported in the years 2015-19.
 
-**Conclusions**
 
 From the plot below we can conclude that in the 2020's last trimester the mean deaths of 2015-19 plus the deaths due to covid disease exceed significantly the number of deaths per capita of 2020. On the other hand, during the previous months reported values almost coincide, because during summer months the spreading of pandemia was substantially negligible. 
 
