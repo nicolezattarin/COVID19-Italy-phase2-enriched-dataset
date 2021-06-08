@@ -59,7 +59,7 @@ In [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data
 
 An example of such series (for Piemonte) is offered by the plot below:
 
-<img src="images/piemonte_time_series.pdf"  width="600"/>  
+![](images/piemonte_time_series.pdf)
 
 On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
 
