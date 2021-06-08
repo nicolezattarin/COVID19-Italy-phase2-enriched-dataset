@@ -1,12 +1,13 @@
+## Content of this document
 
-## Orange zone effectiveness
+This document contains a few simple results obtained by statistical analysis of the data contained in this repository. 
+
+## Efficacy of "orange zone" restrictions 
 **Introduction**
 
-Let us consider all the dates in which one between the 'Red'-'Orange'-'Yellow' restriction has been imposed in every italian region and a suitable time lag of 14 days with whom evaluate the results of the restriction (the 14 days time shift could be seen as the gap between the exposure to the virus and the outbreak of the symptoms in an individual https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
+Considering all the dates in which one between the Red- Orange- or Yellow-zone restriction has been imposed in every Italian region, we evaluated the effects of the restriction after a time lag of 14 days. The 14 days time shift could be seen as the gap between the exposure to the virus and the outbreak/detection of the symptoms in an individual, see e.g. this [link](https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
 
-In order to quantify the effectiveness of a particular restriction lut us define the observable *SNP normalized* as the deviation of new positives (the difference between the number of today's new positives and yesterday's) normalized over today's new positives.
-
-**Conclusions**
+In order to quantify the efficacy of a particular restriction we defined the observable *SNP normalized* as the increment of new positives (the difference between the number of new positives recorded the day after a given day and the same number recoded in the day itself) normalized over the current value of new positives.
 
 <img src="images/histograms.png"  width="800"/>  
 
