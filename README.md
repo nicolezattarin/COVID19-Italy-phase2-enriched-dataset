@@ -85,10 +85,11 @@ The file "deaths.csv" in the folder "deaths" contains a comparison between the m
 - deaths per month identified as covid cases (for the second semester of 2020)
 
 ### 5. Statistics of population
-In the folder []()
+Eventually in the folder [population_stats](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/population_stats) we provide two datasets, which refer both to provinces and regions. 
+[provinces_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/provinces_population.csv) provides a description of provinces code and name, their population and the percentage over the total italian population.
+Wile [regions_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/regions_population.csv) refers to regions and provides data about the population amount, surface, density of inhabitants, number of towns and number of provinces in such region.
 
-Trentino-Alto-Adige
-
+Note that PA Trento along with PA Bolzano creates the whole region Trentino-Alto-Adige, in [regions_population.csv](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/population_stats/regions_population.csv) we provide data referring to Trentino Alto Adige.
 
 ## Sources
 - [Gazzetta Ufficiale della Repubblica Italiana](https://www.gazzettaufficiale.it/home)
