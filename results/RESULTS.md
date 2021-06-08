@@ -2,32 +2,29 @@
 
 This document contains a few simple results obtained by statistical analysis of the data contained in this repository. 
 
-## Efficacy of "orange zone" restrictions 
+## The red- and orange-zone restrictions decrease the specific increment of new positives  
 **Introduction**
 
-Considering all the dates in which one between the Red- Orange- or Yellow-zone restriction has been imposed in every Italian region, we evaluated the effects of the restriction after a time lag of 14 days. The 14 days time shift could be seen as the gap between the exposure to the virus and the outbreak/detection of the symptoms in an individual, see e.g. this [link](https://www.scienzainrete.it/articolo/covid-19-nelle-regioni-italiane-solo-rosso-funziona-se-dato-tempo/associazione-italiana-di).
+Considering all the dates in which one between the Red- Orange- or Yellow-zone restriction has been imposed in every Italian region, we evaluated the effects of the restriction after a time lag of 14 days. The 14 days time shift can be seen as the gap between the exposure to the virus and the outbreak/detection of the symptoms in an individual, see e.g. this [study](https://www.acpjournals.org/doi/10.7326/m20-0504).
 
-In order to quantify the efficacy of a particular restriction we defined the observable *SNP normalized* as the increment of new positives (the difference between the number of new positives recorded the day after a given day and the same number recoded in the day itself) normalized over the current value of new positives.
+In order to quantify the efficacy of a particular restriction we defined the observable *SNP normalized* as the increment of new positives (the difference between the number of new positives recorded the day after a given day and the same number recoded in the day itself) normalized over the current value of new positives. 
 
-![efficacia_restrizioni_star-1](https://user-images.githubusercontent.com/72971538/121192432-3c160a80-c86d-11eb-87f6-90472ccd9da2.png)
+Figure 1 compares the histograms of SNP normalized increments. Given the large number of data, a T-test would produce extremely low P-values for both the histograms (from left to right: p1 ~ 4.e(-151), p2 ~ 8.e(-160) ), leading to conclude that differences between the averages of the compared restrictions are statistically significant, i.e. different restrictions have different effectiveness.
 
-In the previous figure the effectiveness of a given restriction evaluated with the *SNP normalized* observable is straightforwardly compared to the one computed for the Orange zone having on the x-axis a particular value of the observable and on the y-axis (splitted in two) the probability of count of days in which a specific SNP value has been observed.
 
-Given the large number of data, a T-test would produce extremely low p-values for both the histograms (from left to right: p1 ~ 4.e(-151), p2 ~ 8.e(-160) ), which allow to conclude with a low significance level that the differences between the averages of the compared restrictions are statistically significant, i.e. different restrictions have different effectiveness.
+<img src="images/histograms.png"  width="800"/>  
+Figure 1. Red- and orange-zone restrictions statistically decrease the spreading. The plots report histograms of normalized increments of new cases for different restictions. The split _y_-axis is used to ease the visual comparison of the historgrams. Red- and orange-zone restrictions show a clear bias toward negative normalized increments.  
 
-## Restriction transitions 
+
+## Longer-lasting orange-zone restrictions tend to transition to looser restrictions 
 **Introduction**
 
-Let us consider all the impositions of the Orange restriction with the exception of the Christmas period, in which restrictions were imposed regardless of the epidemiological situation but rather due to an attempt of maintaining the social distancing during the holidays.
-
-**Conclusions**
+We considered all the orange-zone restriction with the exception of the Christmas period (in which restrictions were imposed regardless of the epidemiological situation in an attempt to reduce risks), and asked for their outcome. Figure 2 illustrates this analysis. 63.8% of the applied orange-zone restrictions led to the looser yellow zone. The orange-zone restrictions that had a positive outcome were the longer-lasting ones. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurence of the sequencies containing the orange zone was 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (2.3% of R-O-R and 18.6% of R-O-Y) suggesting that the outcome is not simply a consequence of the autonomous descent of the epidemiological curve. Conversely, the shorter-lasting orange-zone restrictions might have turned into stricter restrictions before the delay could show their efficacy.    
 
 <img src="images/restrictions.png"  width="800"/>  
+Figure 2. Transitions from orange-zone to yellow-zone restrictions are more likely and occur for longer-lasting restriction periods.  Left panel: 63.8% of the times the Orange zone led to the yellow one. Right panel: histogram of orange-zone restriction durations colored by transition. The more an Orange zone persists, the more likely it will become yellow. 
 
-
-It has been observed that 63.8% of the times that the Orange zone led to the yellow one. In addition to this, from the image it seems that the more an Orange zone persists, the more likely it will become yellow. This might suggest that the orange zone had an effectiveness in reducing the epidemiological risk, especially considering the fact that the occurency of the sequencies containing the orange zone has been for the 46.5% of the times Y-O-Y and for the 32.5% Y-O-R (remaining 2.3% of R-O-R and 18.6% of R-O-Y) highlighting the fact that the previous observation it's not simply the consequence of the descent of the epidemiological curve. 
-
-## Yellow and red zones before Christmas
+## Yellow and red zones before Christmas 2020
 **Introduction**
 
 Let us consider the 7 days moving average of the IC occupancy and of the new cases registered daily. 
@@ -57,15 +54,14 @@ We now aim to provide an example of possible visualization the data from the tim
 
 In [regions_trend_colors.pdf](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/results/images/regions_trend_colors.pdf) we propose, for each Region, a plot representing the trend of the number of Covid cases and the trend of the daily positive tests percentage. We refer to the latter "percentage trend".
 
-An example of such series (for Piemonte) is offered by the plot below:
-
-![](images/piemonte_time_series.png)
+An example (for Piemonte) is the plot below:
+![](images/piemonte_time_series.pdf)
 
 On the time axis, every major tick is the start of a month while every minor tick is the start of a week. The dashed lines indicate a change of restriction regime. Each color represents the new regime that starts from that day until the next dashed line. For instance: when you see a red vertical line followed by an orange one, it means that in that interval the region has underwent a red zone regime.
 
 Regions' populations vary wildly, so please note that the scale on the y-axes is generally different from region to region, this is an important aspect to consider when analyzing these trends.
 
-These plots show, at a first glance, the difference in each Region's ability to contain the epidemic.
+These graphs show, at a first glance, the difference in each Region's ability to contain the epidemic.
 
 ## Deaths in the second semester of 2020 vs previous years
 **Introduction**
