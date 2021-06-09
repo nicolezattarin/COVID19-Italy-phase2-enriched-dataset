@@ -55,7 +55,7 @@ Figure 4  concerns the red- and yellow-zone restrictions before Christmas 2020 h
 
 
 
-## Excess mortality due to COVID-19 in late 2020 may be overestimated. 
+## Excess mortality due to COVID-19 in late 2020 is related to concurring factors. 
 
 We analyzed excess mortality in the Province of Milan, one of the most affected by the 2020 COVID-19 Pandemic, comparing the mean mortality in the years 2015-2019 with deaths in 2020. We focused on the second semester in order to analyze the second wave of the pandemic. Figure 5 shows that in the last trimester of 2020 the mean deaths of 2015-19 plus the deaths due to COVID-19 disease exceed significantly the number of deaths per capita of 2020. Conversely, during the previous months the values almost coincide, suggesting that during Summer months the epidemic had a small excess mortality toll in this area. 
 
@@ -64,4 +64,4 @@ In order to better understand the impact of Covid disease on mortality we refer 
 <img src="images/deaths_milan.png"  width="800"/>  
 
 
-**Figure 5. Excess mortality due to COVID-19 in late 2020 may be overestimated** The plot compares mean mortality in the province of Milan in the years 2015-2019 with deaths in 2020 in the same area. The mean deaths of 2015-19 plus the deaths due to COVID-19 disease (orange triangles) exceed significantly the number of deaths per capita of 2020 (circles). Correcting the the data by the fraction of estimated deaths due to COVID-19 (green triangles) does not substantially reduce the gap in the prediction, but adding concurrent causes (squares) reduces the gap drastically. 
+**Figure 5. Excess mortality due to COVID-19 in late 2020 is related to concurrent causes.** The plot compares mean mortality in the province of Milan in the years 2015-2019 with deaths in 2020 in the same area. The mean deaths of 2015-19 plus the deaths due to COVID-19 disease (orange triangles) exceed significantly the number of deaths per capita of 2020 (circles). Correcting the the data by the fraction of estimated deaths due to COVID-19 (green triangles) does not substantially reduce the gap in the prediction, but adding concurrent causes (squares) reduces the gap drastically. 
