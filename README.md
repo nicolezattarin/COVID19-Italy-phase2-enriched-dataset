@@ -18,6 +18,7 @@ Dave Parmegiani (University of Milan)
 Nicole Zattarin** (University of Milan)
 
 \* marco.cosentino-lagomarsino@ifom.eu 
+
 \** nicole.zattarin@gmail.com 
 
 ## Repository organisation
