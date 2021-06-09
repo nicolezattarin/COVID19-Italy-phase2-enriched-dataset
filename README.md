@@ -1,4 +1,4 @@
-# covid19-phase2-data-italy
+# COVID19-Italy-phase2-enriched-dataset
 
 ## Description
 
