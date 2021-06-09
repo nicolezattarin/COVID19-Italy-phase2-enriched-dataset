@@ -15,9 +15,10 @@ Marco Cosentino Lagomarsino* (University of Milan and IFOM Foundation, Milan)
 Matteo Citterio (University of Milan)  
 Marco Gherardi  (University of Milan)  
 Dave Parmegiani (University of Milan)  
-Nicole Zattarin (University of Milan)
+Nicole Zattarin** (University of Milan)
 
 \* marco.cosentino-lagomarsino@ifom.eu 
+\** nicole.zattarin@gmail.com 
 
 ## Repository organisation
 The repository is divided into the following folders:
