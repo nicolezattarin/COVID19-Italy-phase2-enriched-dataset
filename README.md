@@ -11,7 +11,7 @@ https://arxiv.org/abs/2104.09394
 
 
 ## Authors 
-Marco Cosentino Lagomarsino (University of Milan and IFOM Foundation, Milan)  marco.cosentino-lagomarsino@ifom.eu
+Marco Cosentino Lagomarsino (University of Milan and IFOM Foundation, Milan, marco.cosentino-lagomarsino@ifom.eu )
 Matteo Citterio (University of Milan)  
 Marco Gherardi  (University of Milan)  
 Dave Parmegiani (University of Milan)  
