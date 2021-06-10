@@ -6,11 +6,12 @@ This repository provides a compiled dataset with 16 of the 21 indicators extract
 
 The file header, with region and indicator code is the following. 
 
-Region    - 1.1%    - 1.2%    - 1.3%    - 1.4%    - 3.1 -    3.2    - 3.5    - 3.6 -    3.8% -    3.9% -    2.1% -    2.2 -    2.4 (per 10000) -    2.5(per 10000) -    2.6% -    Report
+Region    - 1.1%    - 1.2%    - 1.3%    - 1.4%    - 3.1 -    3.2    - 3.5    - 3.6 -    3.8% -    3.9% -    2.1% -    2.2 -    2.4(per 10000) -    2.5(per 10000) -    2.6% -    Report
 
 We provide a description of the indicators below, based on their code:
 
-***Indicators describing the system's ability to monitor the spread od pandemic***
+***Indicators describing the system's ability to monitor the spread of the pandemic***
+
 - 1.1 Fraction of total symptomatic cases known per month of which *the day of the start of symptoms is known*;
 
 - 1.2 Fraction of total hospitalised cases (except IC) per month with a detailed medical record, and a known date of hospitalization;
@@ -20,6 +21,7 @@ We provide a description of the indicators below, based on their code:
 - 1.4 Fraction of total cases per month of wich the domicile is known.
 
 ***Indicators describing the probability of the pandemic to spread***
+
 - 3.1 Total cases reported by the Civil Protection within the last 14 days;
 
 - 3.2 Reproduction number Rt;
