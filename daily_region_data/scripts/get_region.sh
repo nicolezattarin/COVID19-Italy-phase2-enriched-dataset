@@ -21,4 +21,4 @@ sed -e 's/T17:00:00//g' | sed -e 's/T18:00:00//g' >> $region.csv
 # This script technically leaves a blank space as the field separator, and the reason is to make the
 # next script, fix_region written in C++, much easier to code and understand.
 # Keep in mind that the source file keeps track of the date by using the 00:00 hour of the following
-# day, so once this script deletes the midgnight notation what's left is the date+1 so to speak.
+# day, so once this script deletes the midnight notation what's left is the date+1 so to speak.
