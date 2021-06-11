@@ -13,7 +13,7 @@ using namespace std;
 // execute the fix_all_regions script first (and possibly the get_all_regions script even before so
 // if that hadn't been done).
  
-// When executed, this program creates a single new dateset that includes all the date from all the
+// When executed, this program creates a single new dateset that includes all the dates from all the
 // fixed extracted region files. This resulting dateset will be the same file that is in the previous
 // folder.
 // Since there won't be any more scripts, the resulting file will properly be a .csv file with an header

@@ -1,9 +1,9 @@
-# Contents
-This folder contains the source files and scripts I have used to process them to write down the regions-daily.csv dataset one can find in the previous folder:
+## Contents
+This folder contains the source files and the scripts I have used to process them in order to write down the regions-daily.csv dataset one can find in the previous folder:
 
-* **cleaned-dpc-covid19-ita-regioni.csv**  is a source dataset, so **it is not a script**. The source for this file is the public Githup repository of Dipartimento della Protezione Civile you can find [here](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni), but it has been slightly modified for easier use: the empty fields have been replaced by zeros and all commas from notes have been manually deleted. Also the cleaned dataset in this folder obviously will not coincide with the latest version in the source anymore.
+* **cleaned-dpc-covid19-ita-regioni.csv**  is a source dataset, so **it is not a script**. The source for this file is the public Githup repository of Dipartimento della Protezione Civile you can find [here](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni), but it has been slightly modified for easier use: the empty fields have been replaced by zeros and all commas from notes have been manually deleted. Also, the cleaned dataset in this folder obviously will not coincide with the latest version in the source anymore.
 
-* **colors_daily.csv**  is another source dataset, so **it is not a script**. This is the _same file_ one can find in the region\_colors folder, so for more info about this dataset see the [REGIONS_RESTRICTIONS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/region_colors/REGIONS_RESTRICTIONS.md) file in region\_colors.
+* **colors_daily.csv**  is another source dataset, so **it is not a script**. This is the _same file_ one can find in the region\_colors folder, so for more info about this dataset see the [REGIONS_RESTRICTIONS.md](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/region_colors/REGIONS_RESTRICTIONS.md) file in region\_colors.
 
 * **clean_colors.sh**  is a bash script with the colors\_daily.csv dataset as the only dependency. This script creates a new file called cleaned\_colors\_daily.csv which is an easier to use copy of the original.
 
@@ -19,9 +19,9 @@ This folder contains the source files and scripts I have used to process them to
 
 Please do mind that further information can be found in the comments of each script.
 
-Please note that all software in this folder is protected by the [license](https://github.com/nicolezatta/covid19-phase2-data-Italy/blob/main/LICENSE) that is in the main folder.
+Please note that all software in this folder is protected by the [license](https://github.com/nicolezatta/covid19-phase2-data-Italy/tree/main/LICENSE) that is in the main folder.
 
-# Usage
+## Usage
 As it has been somewhat implied in the previous section, there is a specific order to use these scripts:
 
 1. The **two .csv files** are source datasets, and the scripts have dependencies on them so they must be included in the same folder.
